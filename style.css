@@ -2,20 +2,22 @@
 * multi-line comment
 */
 p{ line-height: 1em; }
-h1, h2{
-    color: orange;
+h1, h2, h3{
+    color: Darkorange;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
 }
 h1{ font-size: 1.7em; }
 h2{ font-size: 1.5em; }
-h3{ 
+h3{ color: orange }
+h4{ 
 	font-family: arial;
 	text-align: left;
 	text-transform: uppercase;
 	font-size: 80%;
 	color: grey;
+	font-weight: normal;
 }
 
 a{
@@ -28,7 +30,12 @@ a{
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+    font-family: georgia;
+	font-size: 80%; 
+	line-height: 1.2em; 
+	width: 100%; 
+	margin: 0; 
+	background: #eee;
 }
 /* you can but your code all in one line like above */
 #page{ margin: 20px; }
@@ -64,11 +71,22 @@ body{
 			#nav ul li a:active{ background-color: #ff8f00; }
 
 #content{
-	margin: 30px 0;
+	margin: 30px 10px;
 	background: white;
-	padding: 20px;
+	padding: 35px;
 	clear: both;
 }
+
+#content ul li{
+	margin: 10px;
+}
+
+#content ul li a{
+	color: Darkorange;
+	background-color: white;
+	box-shadow: none;
+}
+			
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
