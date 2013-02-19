@@ -1,3 +1,8 @@
+.nav {
+	width: 100%;
+	font-variant: small-caps;
+}
+
 .navbar-inner {
    -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
 }
@@ -7,6 +12,27 @@
    margin-right: 0px;
 }
 
+#nav-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-text {
+	margin: 0px;
+	font-variant: small-caps;
+}
+
+.navbar .brand {
+	font-size: 40px;
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+#nav-container {
+	width: 95%;
+}
+
 .container {
 	width: 90%;
 }
@@ -14,6 +40,7 @@
 body {
 	padding-left: 0px;
 	padding-right: 0px;
+	font-family: "Verdana", "Helvetica", sans-serif;
 }
 
 @media (min-width: 979px) {
@@ -22,17 +49,9 @@ body {
   }
 }
 
-.nav {
-	width: 100%;
-}
-
 .page-header {
 	padding-top:100px; 
 	margin-top:-100px
-}
-
-#nav-container {
-	width: 90%;
 }
 
 [class*="span"] {
