@@ -4,67 +4,155 @@
 
     <title>Paul Liu</title>
 	
+	<!-- For google -->
 	<meta name="author" content="Paul Liu" />
 	<meta name="description" content="the uninterestingly interesting weblog of paul liu." />
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet"/>
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>
+	<link href="css/custom.css" rel="stylesheet"/>
+	
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="image/favicon.ico">
+	
 	
 </head>
-<body>
-	<div class="navbar navbar-inverse">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="brand" href="index.html">Paul Liu</a>
-				
-				<p class="navbar-text pagination-right">Procrastinating since '92.</p>
-				
-				<ul class="nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li class="divider-vertical"></li>
-					<li><a href="about.html">About</a></li>
-					<li class="divider-vertical"></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li class="divider-vertical"></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
+	<div class="navbar-fixed-top">
+		<div class="navbar navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="index.html">Paul Liu <small>Subtext for header</small></a>
+					
+					<p class="navbar-text pagination-right">Procrastinating since '92.</p>
+					
+					<ul class="nav">
+						<li class="span2">
+							<a href="#about">About</a>
+						</li>
+						
+						<li class="span2">
+							<a href="#contact">Contact</a>
+						</li>
+						
+						<li class="span2">
+							<a href="#projects">Projects</a>
+						</li>
+						
+						<li class="span2">
+							<a href="http://hippomath.blogspot.ca/">Blog</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-	
-	<div class="container">
-		<div class="page-header">
-			<h1>Home</h1>
+
+	<div class="container">		
+		<div class="page-header" id="about">
+			<h1>About</h1>
 		</div>
 		<p>
-			Hi! My name is Paul Liu. I am currently a third year student at the University of British Columbia. I'm really supposed to be studying for my exams right now. If you see this page, send me a message! (I get lonely...) 
+			Hi! My name is Paul Liu. I am currently a third year student at the University of British Columbia.
 			
-			
-			
+			I have a blog at <a href="http://hippomath.blogspot.ca/">http://hippomath.blogspot.ca/</a>. I usually post when I want to procrastinate on my work, like now.
 		</p>
 		
 		<br>
 		<br>
-		<br>
-		<br><br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br><br><br><br><br>
-		<br><br><br><br><br>
-			adf
-			sadf
-			
-			asdf
-			
-			
-			
-	</div>
-	<div id="footer">
-		<div class="container">
-			<p class="pagination pagination-right muted credit">
-				Last updated: [November 11th, 2012]</a>
-			</p>
+		
+		<div class="page-header" id="contact">
+			<h1>Contact</h1>
 		</div>
+		<p>
+				Feel free to email me at <a href="mailto:paul.liu.ubc@gmail.com">paul.liu.ubc@gmail.com</a>.
+		</p>
+		
+		<br>
+		<br>
+		
+		<div class="page-header" id="projects">
+			<h1>Projects</h1>
+		</div>
+		<h3>Ongoing:</h3>
+		<ul>
+			<li>
+			I am currently continuing research with professor Chen Greif (UBC). We hope to extend the package we wrote in the summer to skew-symmetric matrices as well. A proposal of our goals can be found <a href="files/nserc2012.pdf">here</a>.
+			</li>
+			<li>
+			Currently making a distributable chrome extension to autoregister into filled UBC courses (shhh! don't tell the authorities!).
+			</li>
+		</ul>
+		<h3>2012:</h3>
+		<ul>
+			<li>
+			Participated in the 2012 University Physics Contest. We were ranked Bronze! You can see the paper we wrote for the contest <a href="files/team463-problemB.pdf">here</a>. The question was to determine the optimal radius of a ping pong ball for maximum "fun".
+			</li>
+			<li>
+			Participated in the 2012 ACM ICPC PAC-NW Regionals. We placed 3rd out of around 110 teams. You can view the final results <a href="http://www.acmicpc-pacnw.org/Standings/2012/index.html">here</a>. Unfortunately, Stanford took 1st and 2nd place. However, since UBC is one of the top two schools, we have qualified for the 2013 ACM ICPC World Finals! Hopefully I won't let anybody down!
+			</li>
+			<li>
+			Gave a short speech to all UBC Math students on the first day of school on summer research, the Putnam Contest, and the UBC Math Circle.
+			</li>
+			<li>
+			With funding by NSERC, I worked under professor Chen Greif (UBC) in the area of numerical linear algebra. Together we created a small but powerful package designed to give fast incomplete factorizations of symmetric indefinite matrices. Further reading on the package can be found <a href="http://www.cs.ubc.ca/~inutard/html/">here</a>.
+			</li>
+			<li>
+			For UBC Students, <a href="files/autologinv3.crx">here</a> is a small chrome extension to automatically login into SSC and Vista. After installing this plugin, a small bird will appear in the top right corner of the chrome browser. Enter your login info and then try going to SSC or Vista! As of Nov. 11, 2012, you have to drag and drop the extension into the extensions page at chrome://extensions for this to work. This is due to Chromes new security restrictions.
+			</li>
+			<li>
+			Gave a short talk at the UBC Math Circle on cellular automata. The slides to the presentation can be found <a href="files/simplerules2012.pdf">here</a>.
+			</li>
+			<li>
+			Gave a short talk for the UBC CS490 Seminar on Number Theory. The slides to the presentation can be found <a href="files/numbertheory2012.zip">here</a>.
+			</li>
+		</ul>
+		<h3>2011:</h3>
+		<ul>
+			<li>
+			Participated in the 2011 ACM ICPC PAC-NW Regionals. We placed 17th out of around 100 teams. Better luck next year I guess!
+			</li>
+			<li>
+			Participated in the 2011 Google AI Contest. I placed 6th in Canada and 120th worldwide. A neato replay of my AI playing against itself can be found <a href="files/game_logs/replay.0.html">here</a>! It's a fantastic example of both cellular automata and roundoff errors. The source code for my bot is <a href="files/ants.zip">here</a>.
+			</li>
+			<li>
+			As part of the ScienceOne Programme, I wrote a short paper on the distribution of prime numbers in Lucas sequences. It can be found at <a href="https://circle.ubc.ca/handle/2429/35256">https://circle.ubc.ca/handle/2429/35256</a>.
+			</li>
+		</ul>
+		<h3>2010:</h3>
+		<ul>
+			<li>
+			As part of the ScienceOne Programme, I wrote a short paper summarizing methods of quantum computation. It can be found at <a href="files/quantum2011.pdf">here</a>. The slides to my presentation can be found <a href="files/quantum2011pres.pdf">here</a>.
+			</li>
+		</ul>
+		<h3>1992:</h3>
+		<ul>
+			<li>
+			I was born!
+			</li>
+		</ul>
+		
+			
+		<br>
+		<br>
+		<h1 id="#blog"><a href="http://hippomath.blogspot.com">Blog</a></h1>
+		
+		<hr>
 	</div>
+
+	
+	<script type="text/javascript">
+		var m = '<div id="footer"> \
+					<div class="container"> \
+						<p class="pagination pagination-right muted credit"> \
+							Last updated: [' + document.lastModified + ']</a> \
+						</p> \
+					</div> \
+				</div>'
+		
+		document.write(m);
+	</script>
 	
 </body>
 

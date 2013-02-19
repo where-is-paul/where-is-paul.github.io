@@ -1,0 +1,32 @@
+.navbar-inner {
+   -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+}
+
+.navbar-fixed-top {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.container {
+	width: 90%;
+}
+
+body {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (min-width: 979px) {
+  body {
+    padding-top: 100px;
+  }
+}
+
+.nav {
+	width: 100%;
+}
+
+.page-header {
+	padding-top:100px; 
+	margin-top:-100px
+}
