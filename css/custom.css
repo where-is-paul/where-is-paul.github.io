@@ -44,9 +44,13 @@ body {
 }
 
 @media (min-width: 979px) {
-  body {
-    padding-top: 100px;
-  }
+	body {
+		padding-top: 100px;
+	}
+  
+	[class*="icon-"] {
+		visibility: hidden;
+	}
 }
 
 .page-header {
@@ -56,4 +60,8 @@ body {
 
 [class*="span"] {
 	margin-left: 0px;
+}
+
+[class*="icon-"] {
+	opacity: 0.3;
 }
