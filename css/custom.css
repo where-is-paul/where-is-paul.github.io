@@ -75,8 +75,19 @@ body {
 	margin-bottom: 2em;
 }
 
+.thumbnails { text-align: center; }
+.thumbnails li { 
+	display: inline-table; 
+	float: none; 
+}
+
 .thumbnail {
-	border: 0px;
-	box-shadow: 0 0px 0px;
 	text-align: center;
+}
+
+.thumbnail, .thumbnail:hover { 
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none; 
+	box-shadow: none; 
+	border: none; 
 }
