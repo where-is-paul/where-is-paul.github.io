@@ -65,3 +65,18 @@ body {
 [class*="icon-"] {
 	opacity: 0.3;
 }
+
+#projects ul li {
+	margin-bottom: 1em;
+}
+
+#profile-pic {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.thumbnail {
+	border: 0px;
+	box-shadow: 0 0px 0px;
+	text-align: center;
+}
