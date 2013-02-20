@@ -75,7 +75,13 @@ body {
 	margin-bottom: 2em;
 }
 
-.thumbnails { text-align: center; }
+#profile-pic img {
+	width: 300px;
+}
+
+.thumbnails { 
+	text-align: center; 
+}
 .thumbnails li { 
 	display: inline-table; 
 	float: none; 
@@ -83,6 +89,10 @@ body {
 
 .thumbnail {
 	text-align: center;
+}
+
+.thumbnail img {
+	width: 300px;
 }
 
 .thumbnail, .thumbnail:hover { 
