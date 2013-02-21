@@ -88,7 +88,7 @@ body {
 /*============================= project section settings =========================*/
 /*to standardize size of project thumbnails so that they dont overflow on small monitors*/
 .span3 {
-	width: 230px;
+	width: 256px;
 }
 
 .thumbnails { 
