@@ -1,3 +1,4 @@
+/*============================= navbar settings =========================*/
 .nav {
 	width: 100%;
 	font-variant: small-caps;
@@ -33,6 +34,8 @@
 	width: 95%;
 }
 
+/*============================= body settings =========================*/
+
 .container {
 	width: 90%;
 }
@@ -53,6 +56,7 @@ body {
 	}
 }
 
+/*cheap hack to get data spy to jump to the right place, since navbar places an offset on the page*/
 .page-header {
 	padding-top:100px; 
 	margin-top:-100px
@@ -65,6 +69,8 @@ body {
 [class*="icon-"] {
 	opacity: 0.3;
 }
+
+/*============================= profile/about section settings =========================*/
 
 #projects ul li {
 	margin-bottom: 1em;
@@ -79,8 +85,10 @@ body {
 	width: 256px;
 }
 
+/*============================= project section settings =========================*/
+/*to standardize size of project thumbnails so that they dont overflow on small monitors*/
 .span3 {
-	width: 256px;
+	width: 240px;
 }
 
 .thumbnails { 
