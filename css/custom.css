@@ -76,7 +76,11 @@ body {
 }
 
 #profile-pic img {
-	width: 280px;
+	width: 256px;
+}
+
+.span3 {
+	width: 256px;
 }
 
 .thumbnails { 
