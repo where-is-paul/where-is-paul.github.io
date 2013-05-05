@@ -1,12 +1,12 @@
 // based on yuqq.js's "Pendulum Wave" http://jsdo.it/yuqq.js/qjtB
 // code adjusted to make timings as realistic as possible
 var PendulumNumber = 20;
-var Gamma = 250; //total period of dance
-var maxN = 50; //number of oscillations performed by the biggest pendulum
-var StartAngle = 0.2; //in radians
+var Gamma = 210; //total period of dance
+var maxN = 43; //number of oscillations performed by the biggest pendulum
+var StartAngle = Math.PI/3; //in radians
 var PendulumRadius = 10; //radius of pendulum bob in pixels
 var g = 900.8127; //pixels per s^2 (100 pixels correspond to 1 metre)
-var dt = 0.05; //in seconds
+var dt = 0.016; //in seconds
 var k = 0.01; //dampening factor
 
 setTimeout(function() {
@@ -77,14 +77,14 @@ setTimeout(function() {
     for (var i = 0; i < PendulumNumber; i++) {
 		theta[i] = StartAngle;
 		omega[i] = 0;
-		r[i] = g*Math.pow(Gamma/(2*Math.PI*(maxN+i)), 2);
+		r[i] = g*Math.pow(Gamma/(4*1.6857503548*(maxN+i)), 2);
 		colors[i] = hsv2rgb(i * (360 / PendulumNumber), 80, 80);
 	}
 
     function clearCanvas() {
         cvs.ctx.clearRect(0, 0, cvs.width, cvs.height);
     }
-
+	
     function drawPendulum(delta) {
         var pos_x = cvs.width / 2;
         var pos_y = 0;
