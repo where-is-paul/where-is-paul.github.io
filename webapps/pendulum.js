@@ -3,11 +3,32 @@
 var PendulumNumber = 12;
 var Gamma = 190; //total period of dance
 var maxN = 35; //number of oscillations performed by the biggest pendulum
-var StartAngle = 60*Math.PI/180; //in radians
+var theta0 = 60*Math.PI/180; //in radians
 var PendulumRadius = 10; //radius of pendulum bob in pixels
-var g = 981.27; //pixels per s^2 (100 pixels correspond to 1 metre)
+var g = (0.8)*981.27; //pixels per s^2 (100 pixels correspond to 1 metre)
 var dt = 0.016; //in seconds
-var k = 0.04; //dampening factor
+var k = 0.00; //dampening factor
+
+function f(theta, x) {
+    //input theta as rad.
+    var k = Math.sin(theta / 2);
+    return 1 / Math.sqrt(1 - Math.pow(k * Math.sin(x), 2));
+}
+
+function integrate(g, lower, upper) {
+    var mesh = 10000;
+    var dx = (upper - lower) / mesh;
+
+    //computes an elliptic integral of the first kind
+    //between 0 and pi/2. using simpsons though.
+    //the accuracy should be enough.
+    var res = 0;
+    for (var i = 0; i < mesh; i++) {
+        res += (g(i * dx) + 4*g((i+0.5) * dx) + g((i+1)*dx)) * (dx/6);
+    }
+
+    return res;
+}
 
 setTimeout(function() {
 
@@ -73,19 +94,25 @@ setTimeout(function() {
     var omega = [];
     var r = [];
     var colors = [];
-
-    for (var i = 0; i < PendulumNumber; i++) {
-		theta[i] = StartAngle;
-		omega[i] = 0;
-		r[i] = g*Math.pow(Gamma/(4*1.58054*(maxN+i)), 2);
-		r[i] += r[i]*(Math.random()-1)/50;
-		colors[i] = hsv2rgb(i * (360 / PendulumNumber), 80, 80);
+	
+	function init() {
+		for (var i = 0; i < PendulumNumber; i++) {
+			theta[i] = theta0;
+			omega[i] = 0;
+			var func = function (x) {
+				return f(theta0, x);
+			}
+			var I = integrate(func, 0, Math.PI / 2);
+			r[i] = g*Math.pow(Gamma/(4*I*(maxN+i)), 2);
+			//r[i] += r[i]*(Math.random()-1)/50;
+			colors[i] = hsv2rgb(i * (360 / PendulumNumber), 80, 80);
+		}
+	}
+	init();
+	function clearCanvas() {
+		cvs.ctx.clearRect(0, 0, cvs.width, cvs.height);
 	}
 
-    function clearCanvas() {
-        cvs.ctx.clearRect(0, 0, cvs.width, cvs.height);
-    }
-	
     function drawPendulum(delta) {
         var pos_x = cvs.width / 2;
         var pos_y = 0;
@@ -123,6 +150,24 @@ setTimeout(function() {
         drawPendulum(info.delta/1000);
         requestAnimationFrame(render);
     }
+	
+	$(function () {
+		var timer;
+		$('input').keyup(function () {
+			clearTimeout(timer);
+			var ms = 200; // milliseconds
+			function updateTable() {
+				console.log("being called..");
+				Gamma = parseFloat($('#gamma').val());
+				maxN = parseInt($('#N').val());
+				theta0 = parseFloat($('#theta0').val())*(Math.PI/180);
+				PendulumNumber = parseInt($('#num').val());
+				if (!PendulumNumber) PendulumNumber = 15;
+				init();
+			}
+			updateTable();
+		});
+	});
 
 }, 0);
 

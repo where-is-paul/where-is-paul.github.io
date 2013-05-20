@@ -3,6 +3,11 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #eee;
+	font-family: Ricty,"M+2VM+IPAG circle",Inconsolata,"Bitstream Vera Sans Mono","Dina Programming Font","Monaco","Lucida Console","Courier New",Courier,monospace;
+}
+
+.row {
+	margin: 5%;
 }
 
 canvas {
