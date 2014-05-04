@@ -3,10 +3,10 @@
 var PendulumNumber = 12;
 var Gamma = 190; //total period of dance
 var maxN = 35; //number of oscillations performed by the biggest pendulum
-var theta0 = 60*Math.PI/180; //in radians
+var theta0 = 30*Math.PI/180; //in radians
 var PendulumRadius = 10; //radius of pendulum bob in pixels
 var g = (0.8)*981.27; //pixels per s^2 (100 pixels correspond to 1 metre)
-var dt = 0.016; //in seconds
+var dt = 0.03; //in seconds
 var k = 0.00; //dampening factor
 
 function f(theta, x) {
