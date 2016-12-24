@@ -39,12 +39,12 @@
 							<a href="#contact">Contact</a>
 						</li>
 						
-						<li class="span2">
-							<a href="#projects">Projects</a>
-						</li>
-						
                         <li class="span2">
 							<a href="#publications">Publications</a>
+						</li>
+						
+						<li class="span2">
+							<a href="#projects">Projects</a>
 						</li>
                         
 						<li class="span2">
@@ -70,13 +70,10 @@
 			
 			<div class="span10">
 				<p>
-					Hi! My name is Paul Liu. I am currently a first year Computer Science Master's student at the University of British Columbia. This website exists mainly for me to exercise my web design skills (or lack thereof). If you have any questions about this page, send me a message! I'm always free to chat!
+					Hi! My name is Paul Liu. I am currently a second year Computer Science Master's student at the University of British Columbia. This website exists mainly for me to exercise my web design skills (or lack thereof). If you have any questions about this page, send me a message! I'm always free to chat!
 				</p>
 				<p>
 					For work related matters, my CV can be found <a href="files/webcv.pdf">here</a>.
-				</p>
-				<p>
-					I have a blog at <a href="http://hippomath.blogspot.ca/">http://hippomath.blogspot.ca/</a>. I usually post when I want to procrastinate on my work, like now.
 				</p>
 			</div>
 
@@ -94,6 +91,73 @@
 		
 		<br>
 		<br>
+		
+        <!------------------------------ publications -------------------------------->
+        <div id="publications">
+			<div class="page-header">
+				<h1>Publications <a href="#home"><i class="icon-home"></i></a></h1>
+			</div>
+			
+			<ul class="thumbnails">
+	
+				<li class="span4">
+					<div class="thumbnail">
+						<a href="files/cccg-2016.pdf">
+							<img src="img/cccg-16.png" class="img-rounded" alt="">
+						</a>
+						<h3>Characterizing minimum-length coordinated motions for two discs</h3>
+						<p> We give characterize length optimal collision-avoiding motions for a pair of disc robots on an obstacle free plane. The motions are composed of at most six (straight or circular-arc) segments, and their total length can be expressed as a simple integral with a closed form solution depending only on the initial and final positions of the robots.
+                        </p>
+						<p>
+                        Short paper published in the 2016 Canadian Conference on Computational Geometry. Long form with extended results to be submitted.
+                        </p>
+					</div>
+				</li>
+				
+                <li class="span4">
+					<div class="thumbnail">
+						<a href="files/cccg-2015-long.pdf">
+							<img src="img/cccg-15.png" class="img-rounded" alt="">
+						</a>
+						<h3>A 4-approximation for the Unit Disk Cover problem</h3>
+						<p> This work is an improved result of my earlier result: <a href="#udc1">A fast 25/6-approximation for the minimum unit disk cover problem</a>.
+                        </p>
+						<p>
+                        <a href="files/cccg-2015.pdf">Short paper</a> published in the 2015 Canadian Conference on Computational Geometry. <a href="files/cccg-2015-long.pdf">Long form</a> with extended results published in Computational Geometry: Theory and Application.
+                        </p>
+					</div>
+				</li>
+                
+				<li class="span4" id="udc1">
+					<div class="thumbnail">
+						<a href="http://arxiv.org/abs/1406.3838">
+							<img src="img/25-6-disc-cover.png" class="img-rounded" alt="">
+						</a>
+						<h3>A fast 25/6-approximation for the minimum unit disk cover problem</h3>
+						<p>Given a point set P in 2D, what is the minimum number of unit radius discs that covers all of the points? This is called the Unit Disk Cover (UDC) problem and has a wide variety of applications in facility location, motion planning, and image processing. Unfortunately, UDC is also NP-Hard.</p>
+                        <p>
+                        In this work we present simple and practical 25/6 - approximation algorithms for UDC with runtime O(n log n) and space O(n). This algorithm additionally extends to discs in any Lp norm.
+                        </p>
+					</div>
+				</li>
+				
+				<li class="span4">
+					<div class="thumbnail">
+						<a href="http://arxiv.org/abs/1505.07589">
+							<img src="img/matrix-coloured.png" class="img-rounded" alt="">
+						</a>
+						<h3>SYM-ILDL: Incomplete LDL^T Factorization of Symmetric Indefinite and Skew-Symmetric Matrices</h3>
+						<p>A software package for the solution and preconditioning of symmetric indefinite and skew-symmetric linear systems. This software package is quite easy to use and includes a Matlab interface. Matrices with millions of columns and hundreds of millions of non-zeros have been tested. See more information <a href="http://www.cs.ubc.ca/~inutard/html/">here</a>.
+                        </p>
+                        <p>
+                        This paper arose from my <a href="#sym-ildl">sym-ildl</a> project. To appear in ACM Transactions on Mathematical Software.
+                        </p>
+					</div>
+				</li>
+			</ul>
+            
+		</div>
+		
 		
         <!------------------------------------- PROJECTS --------------------------------------->
 		<div id="projects">
@@ -170,7 +234,7 @@
 						</a>
 						<h3>uni-phys-contest</h3>
 						<p>A fun project done for the 2012 <a href="http://www.uphysicsc.com/">international university physics contest</a>. 
-						the figure above is a model of a ping-pong ball spinning at 100 rad/s without drag. 
+						The figure above is a model of a ping-pong ball spinning at 100 rad/s without drag. 
 						See the full paper <a href="files/team463-problemB.pdf">here</a>.</p>
 					</div>
 				</li>
@@ -187,56 +251,8 @@
 			</ul>
 		</div>
 			
-        <!------------------------------ publications -------------------------------->
-        <div id="publications">
-			<div class="page-header">
-				<h1>Publications <a href="#home"><i class="icon-home"></i></a></h1>
-			</div>
-			
-			<ul class="thumbnails">
-	
-                <li class="span4">
-					<div class="thumbnail">
-						<a href="files/cccg-2015.pdf">
-							<img src="img/cccg-15.png" class="img-rounded" alt="">
-						</a>
-						<h3>A 4-approximation for the Unit Disk Cover problem</h3>
-						<p> This work is an improved result of my earlier result: <a href="#udc1">A fast 25/6-approximation for the minimum unit disk cover problem</a>.
-                        </p>
-					</div>
-				</li>
-                
-				<li class="span4" id="udc1">
-					<div class="thumbnail">
-						<a href="http://arxiv.org/abs/1406.3838">
-							<img src="img/25-6-disc-cover.png" class="img-rounded" alt="">
-						</a>
-						<h3>A fast 25/6-approximation for the minimum unit disk cover problem</h3>
-						<p>Given a point set P in 2D, what is the minimum number of unit radius discs that covers all of the points? This is called the Unit Disk Cover (UDC) problem and has a wide variety of applications in facility location, motion planning, and image processing. Unfortunately, UDC is also NP-Hard.</p>
-                        <p>
-                        In this work we present simple and practical 25/6 - approximation algorithms for UDC with runtime O(n log n) and space O(n). This algorithm additionally extends to discs in any Lp norm.
-                        </p>
-					</div>
-				</li>
-				
-				<li class="span4">
-					<div class="thumbnail">
-						<a href="files/ghl2015_arxiv.pdf">
-							<img src="img/matrix-coloured.png" class="img-rounded" alt="">
-						</a>
-						<h3>SYM-ILDL: Incomplete LDL^T Factorization of Symmetric Indefinite and Skew-Symmetric Matrices</h3>
-						<p>A software package for the solution and preconditioning of symmetric indefinite and skew-symmetric linear systems. This software package is quite easy to use and includes a Matlab interface. Matrices with millions of columns and hundreds of millions of non-zeros have been tested. See more information <a href="http://www.cs.ubc.ca/~inutard/html/">here</a>.
-                        </p>
-                        <p>
-                        This paper arose from my <a href="#sym-ildl">sym-ildl</a> project.
-                        </p>
-					</div>
-				</li>
-			</ul>
-            
-		</div>
         
-        <!------------------------------ publications -------------------------------->
+        <!------------------------------ courses -------------------------------->
         <div id="teaching">
 			<div class="page-header">
 				<h1>Teaching <a href="#home"><i class="icon-home"></i></a></h1>
@@ -250,7 +266,7 @@
 							<img src="img/cs490.png" class="img-rounded" alt="">
 						</a>
 						<h3>CS490 - Problem Solving in Computer Science</h3>
-						<p> Though I am only a Master's student, I did get the pleasure of teaching CS490 when I was an undergraduate. CS490 is a Student Directed Seminar, and is a 3 credit course organized by senior students at UBC. Students are free to teach whatever they want (subject to a review by the UBC CS department of course), similar to MIT's independent activities period, but with the time commitment of a regular course. CS490 is typically taught as a Introduction to Programming Contests course by members of the UBC ACM Team. It was lots of fun teaching the course!
+						<p>CS490 is a Student Directed Seminar, and is a 3 credit course organized by senior students at UBC. Students are free to teach whatever they want (subject to a review by the UBC CS department of course), similar to MIT's independent activities period, but with the time commitment of a regular course. CS490 is typically taught as an Introduction to Programming Contests course by members of the UBC ACM Team. It was lots of fun teaching the course!
                         
                         See <a href="http://www.ugrad.cs.ubc.ca/~cs490/2014W2/">here</a> for the course webpage.
                         </p>
