@@ -19,42 +19,52 @@ function integrate(g, lower, upper) {
     return res;
 }
 
-$(function () {
-    var timer;
-    $('input').keyup(function () {
-        clearTimeout(timer);
-        var ms = 200; // milliseconds
-        var gamma = parseFloat($('#gamma').val());
-        var N = parseInt($('#N').val());
-        var theta0 = parseFloat($('#theta0').val())*(Math.PI/180);
-        var num = parseInt($('#num').val());
+var timer;
+function update() {
+    clearTimeout(timer);
+    var ms = 200; // milliseconds
+    var gamma = parseFloat($('#gamma').val());
+    if (!gamma) gamma = 60;
 
-        var grav = 9.81;
-        var updateTable = function () {
-            if (!num) num = 15;
-            
-            var list = $('#results');
-            list.find("tr:gt(0)").remove();
-            var func = function (x) {
-                return f(theta0, x);
-            }
-            var I = integrate(func, 0, Math.PI / 2);
-            for (var n = 0; n < num; n++) {
-                var len = grav * Math.pow(gamma / (4 * I * (N + n)), 2);
+    var N = parseInt($('#N').val());
+    if (!N) N = 51;
 
-                var tr = $('<tr>');
+    var theta0 = parseFloat($('#theta0').val())*(Math.PI/180);
+    if (!theta0) theta0 = 45;
 
-                var idx = $('<td>');
-                idx.append(n);
-                var res = $('<td>');
-                res.append(len.toFixed(5));
-
-                tr.append(idx);
-                tr.append(res);
-
-                list.append(tr);
-            }
+    var num = parseInt($('#num').val());
+    if (!num) num = 15;
+    
+    var grav = 9.81;
+    var updateTable = function () {
+        if (!num) num = 15;
+        
+        var list = $('#results');
+        list.find("tr:gt(0)").remove();
+        var func = function (x) {
+            return f(theta0, x);
         }
-        if (gamma && N && (theta0 || theta0 < 1e-8)) timer = setTimeout(updateTable, ms);
-    });
+        var I = integrate(func, 0, Math.PI / 2);
+        for (var n = 0; n < num; n++) {
+            var len = grav * Math.pow(gamma / (4 * I * (N + n)), 2);
+
+            var tr = $('<tr>');
+
+            var idx = $('<td>');
+            idx.append(n);
+            var res = $('<td>');
+            res.append(len.toFixed(5));
+
+            tr.append(idx);
+            tr.append(res);
+
+            list.append(tr);
+        }
+    }
+    if (gamma && N && (theta0 || theta0 < 1e-8)) timer = setTimeout(updateTable, ms);
+}
+
+update();
+$(function () {
+    $('input').keyup(update);
 });
