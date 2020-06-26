@@ -71,9 +71,12 @@
 			<div class="span10">
 				<p>
 					Hi! Hopefully you found the right Paul! 
-
-					I am currently a PhD student at Stanford University. I did my undergrad and Master's at the University of British Columbia (in Math/Physics and Computer Science respectively). This website exists mainly for me to exercise my web design skills (or lack thereof). If you have any questions about this page, send me a message! 
+                </p>
+                
+                <p>
+					I am currently a PhD student at Stanford University advised by <a href="https://profiles.stanford.edu/moses-charikar">Moses Charikar</a> and <a href="https://theory.stanford.edu/~jvondrak/">Jan Vondrak</a>. I did my undergrad and Master's at the University of British Columbia (in Math/Physics and Computer Science respectively). This website exists mainly for me to exercise my web design skills (or lack thereof). If you have any questions about this page, send me a message! 
 				</p>
+                
 				<p>
 					For work related matters, my CV can be found <a href="files/webcv.pdf">here</a>.
 				</p>
@@ -99,8 +102,20 @@
 			<div class="page-header">
 				<h1>Publications <a href="#home"><i class="icon-home"></i></a></h1>
 			</div>
-			(Click on the pictures to see the papers!)
-			<ul class="thumbnails">
+            
+            
+            <h2 class="expander">
+                <a type="button" data-toggle="collapse" data-target="#collapse-massive">
+                Massive data models
+                <i class="icon-minus-sign"></i>
+                <i class="icon-plus-sign"></i>
+                </a>
+            </h2>
+            <hr />
+            
+			
+			<ul class="thumbnails in collapse" id="collapse-massive">
+                <div>(Click on the pictures to see the papers!)</div>
 				<li class="span4">
 					<div class="thumbnail">
 						<a href="files/stoc-2020.pdf">
@@ -112,37 +127,7 @@
 						Much work has been devoted recently to creating efficient algorithms for submodular optimization (SUBMOD) in the adaptive model. We focus instead on the lower bound, and provide the first lower bound showing that any approximation for monotone SUBMOD takes polynomially many rounds as the approximation factor approaches 1-1/e. 
                         </p>
 						<p>
-                        To appear in the ACM Symposium on Theory of Computing (STOC 2020).
-                        </p>
-					</div>
-				</li>
-				
-				<li class="span4">
-					<div class="thumbnail">
-						<a href="files/wsdm2020.pdf">
-							<img src="img/topk.png" class="img-rounded" alt="">
-						</a>
-						<h3>Retrieving Top Weighted Triangles in Graphs</h3>
-						<p> The majority of network datasets consists of unweighted graphs. However, many networks have a natural notion of weight on the edges of the graph. For example, traffic flows in transportation networks or relationship strength in social networks. In this work, we offer efficient algorithms for computing heavy cliques in an arbitrary weighted network. We focus on large-scale networks arising from real-world applications, and show that our method performs orders of magnitudes faster than existing baseline approaches.
-                        </p>
-						<p>
-                        Published in the ACM International Conference on Web Search and Data Mining (WSDM 2020).
-                        </p>
-					</div>
-				</li>
-
-				<li class="span4">
-					<div class="thumbnail">
-						<a href="files/wsdm2019.pdf">
-							<img src="img/wsdm-2019.png" class="img-rounded" alt="">
-						</a>
-						<h3>Sampling Methods for Counting Temporal Motifs</h3>
-						<p> Subgraph isomorphism is a classic and well studied problem in computer science. However, modern graph datasets now contain richer structure, and incorporating
-temporal information in particular has become a key part of network analysis. In this work we develop fast sampling algorithms for <i>temporal motif counting</i> (subgraph isomorphism where the subgraph must have edges appearing in a specific order). Our results show that we can achieve one to two orders of magnitude speedup over existing algorithms with
-minimal and controllable loss in accuracy on a number of datasets. 
-                        </p>
-						<p>
-                        Published in the ACM International Conference on Web Search and Data Mining (WSDM 2019).
+                         Published in the ACM Symposium on Theory of Computing (STOC 2020).
                         </p>
 					</div>
 				</li>
@@ -174,8 +159,60 @@ minimal and controllable loss in accuracy on a number of datasets.
                         </p>
 					</div>
 				</li>
-				
+			</ul>
+            
+            <h2 class="expander">
+                <a type="button" data-toggle="collapse" data-target="#collapse-data-mining">
+                Graph data mining
+                <i class="icon-minus-sign"></i>
+                <i class="icon-plus-sign"></i>
+                </a>
+            </h2>
+            <hr />
+            
+            <ul class="thumbnails in collapse" id="collapse-data-mining">
 				<li class="span4">
+					<div class="thumbnail">
+						<a href="files/wsdm2020.pdf">
+							<img src="img/topk.png" class="img-rounded" alt="">
+						</a>
+						<h3>Retrieving Top Weighted Triangles in Graphs</h3>
+						<p> The majority of network datasets consists of unweighted graphs. However, many networks have a natural notion of weight on the edges of the graph. For example, traffic flows in transportation networks or relationship strength in social networks. In this work, we offer efficient algorithms for computing heavy cliques in an arbitrary weighted network. We focus on large-scale networks arising from real-world applications, and show that our method performs orders of magnitudes faster than existing baseline approaches.
+                        </p>
+						<p>
+                        Published in the ACM International Conference on Web Search and Data Mining (WSDM 2020).
+                        </p>
+					</div>
+				</li>
+
+				<li class="span4">
+					<div class="thumbnail">
+						<a href="files/wsdm2019.pdf">
+							<img src="img/wsdm-2019.png" class="img-rounded" alt="">
+						</a>
+						<h3>Sampling Methods for Counting Temporal Motifs</h3>
+						<p> Subgraph isomorphism is a classic and well studied problem in computer science. However, modern graph datasets now contain richer structure, and incorporating
+temporal information in particular has become a key part of network analysis. In this work we develop fast sampling algorithms for <i>temporal motif counting</i> (subgraph isomorphism where the subgraph must have edges appearing in a specific order). Our results show that we can achieve one to two orders of magnitude speedup over existing algorithms with
+minimal and controllable loss in accuracy on a number of datasets. 
+                        </p>
+						<p>
+                        Published in the ACM International Conference on Web Search and Data Mining (WSDM 2019).
+                        </p>
+					</div>
+				</li>
+			</ul>
+            
+            <h2 class="expander">
+                <a type="button" data-toggle="collapse" data-target="#collapse-comp-geom">
+                Computational Geometry
+                <i class="icon-minus-sign"></i>
+                <i class="icon-plus-sign"></i>
+                </a>
+            </h2>
+            <hr />
+            
+            <ul class="thumbnails in collapse" id="collapse-comp-geom">
+                <li class="span4">
 					<div class="thumbnail">
 						<a href="files/cccg-2018.pdf">
 							<img src="img/cccg-18.png" class="img-rounded" alt="">
@@ -216,20 +253,6 @@ minimal and controllable loss in accuracy on a number of datasets.
                         </p>
 					</div>
 				</li>
-                
-				<li class="span4">
-					<div class="thumbnail">
-						<a href="http://arxiv.org/abs/1505.07589">
-							<img src="img/matrix-coloured.png" class="img-rounded" alt="">
-						</a>
-						<h3>SYM-ILDL: Incomplete LDL^T Factorization of Symmetric Indefinite and Skew-Symmetric Matrices</h3>
-						<p>A software package for the solution and preconditioning of symmetric indefinite and skew-symmetric linear systems. This software package is quite easy to use and includes a Matlab interface. Matrices with millions of columns and hundreds of millions of non-zeros have been tested. See more information <a href="./sym-ildl/html/index.html">here</a>.
-                        </p>
-                        <p>
-                        This paper arose from my <a href="#sym-ildl">sym-ildl</a> project. Published in ACM Transactions on Mathematical Software.
-                        </p>
-					</div>
-				</li>
 				
 				<li class="span4" id="udc1">
 					<div class="thumbnail">
@@ -243,8 +266,32 @@ minimal and controllable loss in accuracy on a number of datasets.
                         </p>
 					</div>
 				</li>
-			</ul>
+            </ul>
             
+            <h2 class="expander">
+                <a type="button" data-toggle="collapse" data-target="#collapse-misc">
+                Miscellaneous
+                <i class="icon-minus-sign"></i>
+                <i class="icon-plus-sign"></i>
+                </a>
+            </h2>
+            <hr />
+            
+            <ul class="thumbnails in collapse" id="collapse-misc">
+                <li class="span4">
+					<div class="thumbnail">
+						<a href="http://arxiv.org/abs/1505.07589">
+							<img src="img/matrix-coloured.png" class="img-rounded" alt="">
+						</a>
+						<h3>SYM-ILDL: Incomplete LDL^T Factorization of Symmetric Indefinite and Skew-Symmetric Matrices</h3>
+						<p>A software package for the solution and preconditioning of symmetric indefinite and skew-symmetric linear systems. This software package is quite easy to use and includes a Matlab interface. Matrices with millions of columns and hundreds of millions of non-zeros have been tested. See more information <a href="./sym-ildl/html/index.html">here</a>.
+                        </p>
+                        <p>
+                        This paper arose from my <a href="#sym-ildl">sym-ildl</a> project. Published in ACM Transactions on Mathematical Software.
+                        </p>
+					</div>
+				</li>
+            </ul>
 		</div>
 		
 		
@@ -377,6 +424,19 @@ minimal and controllable loss in accuracy on a number of datasets.
 
                 <li class="span4">
 					<div class="thumbnail">
+						<a href="http://web.stanford.edu/class/cs368/">
+							<img src="img/cs368-ta.png" class="img-rounded" alt="">
+						</a>
+						<h3>CS 368: Algorithmic Techniques for Big Data</h3>
+						<p>CS 368 is a grad-level course on algorithms in computing models for large datasets. These models include the streaming and mapreduce models. In this iteration of the course, we designed a new set of programming assignments to accomodate the more "theoretical" assignments that the students usually do. If you like "olympiad-style" programming problems. please do take a look at <a href="http://web.stanford.edu/class/cs368/assignments.html">our assignments</a>. Instead of being judged by execution time, your submission succeeds only if you are able to implement it in low enough memory!
+                        
+                        See <a href="http://web.stanford.edu/class/cs368/">here</a> for the course webpage.
+                        </p>
+					</div>
+				</li>
+                
+                <li class="span4">
+					<div class="thumbnail">
 						<a href="http://www.ugrad.cs.ubc.ca/~cs490/2014W2/">
 							<img src="img/cs490.png" class="img-rounded" alt="">
 						</a>
@@ -432,7 +492,7 @@ minimal and controllable loss in accuracy on a number of datasets.
 		document.write(m);
 	</script>
 	
-	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body>

@@ -51,10 +51,35 @@ body {
 		padding-top: 100px;
 	}
   
-	[class*="icon-"] {
+	[class*="icon-home"] {
 		visibility: hidden;
 	}
 }
+
+
+/* This stuff here is for the +/- buttons on the publications. */
+
+.expander a {
+    color: #534444;
+    text-decoration: none
+}
+
+.expander .icon-minus-sign {
+    display: inline-block;
+}
+
+.expander .icon-plus-sign {
+    display: none;
+}
+
+.collapsed .icon-plus-sign {
+    display: inline-block;
+}
+
+.collapsed .icon-minus-sign {
+    display: none
+}
+   
 
 /*cheap hack to get data spy to jump to the right place, since navbar places an offset on the page*/
 .page-header {
