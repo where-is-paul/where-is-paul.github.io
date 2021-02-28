@@ -15,7 +15,7 @@
       
       <guid>/fun-stuff/badminton/</guid>
       <description>Trying to think of things to write is hard, so here&amp;rsquo;s a random collection of pictures instead 🙃:
-                                             if (!jQuery) { alert(&#34;jquery is not loaded&#34;); } $( document ).</description>
+                                                if (!jQuery) { alert(&#34;jquery is not loaded&#34;</description>
     </item>
     
   </channel>
