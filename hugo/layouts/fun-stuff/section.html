@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<body lang="en">
+{{ partial "subheader.html" . }}
+
+<section id="main">
+  <div>
+   <h1 id="title">Fun Stuff!</h1>
+        {{ range .Data.Pages }}
+            {{ .Render "single"}}
+        {{ end }}
+  </div>
+</section>
+
+<aside id="meta"> </aside>
+{{ partial "footer.html" . }}

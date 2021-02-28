@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    {{ partial "meta.html" . }}
+
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+    {{ partial "head_includes.html" . }}
+</head>
+<body lang="en">
+
+{{ partial "subheader.html" . }}
+
+<section id="main">
+  <div>
+      <h1 id="title">About</h1>
+      <article id="content">
+      <figure class="third right">
+        <img src="img/profile.jpg" alt="This is me!">
+      </figure>
+      
+      <p>
+      Hi! Hopefully you found the right Paul!
+      </p>
+
+      <p>
+      I am currently a 4th year PhD student at Stanford University advised by <a href="https://profiles.stanford.edu/moses-charikar">Moses Charikar</a> and <a href="https://theory.stanford.edu/~jvondrak/">Jan Vondrak</a>. I did my undergrad and Master's at the University of British Columbia (in Math/Physics and Computer Science respectively). This website exists mainly for me to exercise my web design skills (or lack thereof).
+      </p>
+
+      <p>
+      I am also proud to be on the board of the <a href="https://www.firsteverfoundation.com/">First Ever Foundation</a>, a non-profit 501(c)(3) charity established in 2019. To date, we have committed to over $40000 in scholarships to promising badminton athletes across the US. If you're looking for a good cause to donate to, this is the one!
+      </p>
+
+      <p>
+      For work related matters, my CV can be found <a href="files/webcv.pdf">here.</a>
+      </p>
+      </article>
+  </div>
+</section>
+
+<aside id="meta"> </aside>
+
+{{ partial "footer.html" . }}

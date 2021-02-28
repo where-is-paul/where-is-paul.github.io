@@ -1,0 +1,14 @@
+# baseurl = "https://cs.stanford.edu/people/paulliu/"
+languageCode = "en-us"
+copyright = "Procrastinating since '92."
+MetaDataFormat = "toml"
+title = "Paul Liu"
+assetDir = "assets"
+
+[author]
+    name = "Paul Liu"
+
+# [indexes]
+#     tag = "tags"
+#     topic = "topics"
+

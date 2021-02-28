@@ -1,0 +1,26 @@
+<li>
+    {{ if eq .Page.Title "others" }}
+        <hr style="border-top: 0px solid #8c8b8b;"/>
+        <p>
+        Some other projects you may like:
+        </p>
+        {{ .Page.Content }}
+    {{ else }}
+        <h2>{{ .Page.Title }}</h2>
+        <div class="thumbnail left">
+            <a href="{{ .Params.redirect }}">
+                <img src="img/{{ .Params.figure }}" style="border-radius: 1%">
+            </a>
+            {{ if isset .Params "figure2" }}
+                <a href="{{ .Params.redirect }}">
+                    <img src="img/{{ .Params.figure2 }}" style="border-radius: 1%">
+                </a>
+            {{ end }}
+        </div>
+        <div class="half right">
+            <p>
+            {{ (replace (.Params.abstract) "\n" "</p><p>") | safeHTML }}
+            </p>
+        </div>
+    {{ end }}
+</li>
