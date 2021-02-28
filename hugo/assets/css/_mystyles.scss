@@ -361,14 +361,14 @@ blockquote cite:before {
 a.github { color:$github + 10;  }
 a.linkedin { color:$linkedin; }
 a.scholar { color:$scholar; }
-a.cv { color: $silver - 40; }
+a.cv { color: $pomegranate; }
 
 
 
 a.github:hover { color:$github - 40; }
 a.linkedin:hover { color:$linkedin - 12; }
 a.scholar:hover { color:$scholar - 40; }
-a.cv:hover { color: $silver - 80; }
+a.cv:hover { color: $pomegranate - 40; }
 
 .share .icon, .follow .icon {
     padding-left: 1em;
