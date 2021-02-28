@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Paul Liu</title>
+    <link>//localhost:1313/tags/security/</link>
+    <description>Recent content in security on Paul Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Procrastinating since &#39;92.</copyright>
+    <lastBuildDate>Tue, 22 Dec 2009 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 security practices you need to follow</title>
+      <link>//localhost:1313/post/7-security-practices-you-need-to-follow/</link>
+      <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/post/7-security-practices-you-need-to-follow/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/usbkey.jpg&amp;quot; /&amp;gt;  Some of this may seem like a broken record, yet every single time you hear about a bank losing millions of customer data, or a company having a security breach they consistently have failed to implement and enforce the most basic security practices. Here are 7 simple security practices that you cannot afford to not follow.
+1. Secure pass phrases Throw away the notion of a password.</description>
+    </item>
+    
+  </channel>
+</rss>

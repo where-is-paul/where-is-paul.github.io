@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendulum Wave Calculator</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="../css/bootstrap-responsive.min.css" rel="stylesheet"/>
+	<link href="calcstyle.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span4">
+                <h3>Options</h3>
+                <input type="text" placeholder="Period of dance (s)" id="gamma">
+                <input type="text" placeholder="# of swings in longest pendulum" id="N">
+                <input type="text" placeholder="Initial Angle (deg)" id="theta0">
+                <input type="text" placeholder="# of pendulums (default 15)" id="num">
+            </div>
+            <div class="span8">
+                <table class="table table-hover" id="results">
+                    <thead>
+                        <tr>
+                            <th><h3>#</h3></th>
+                            <th><h3>Pendulum length (m)</h3></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>0</td>
+                        <td>outputs are here...</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+	
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="./pendulumcalc.js"></script>
+</body>
+</html>

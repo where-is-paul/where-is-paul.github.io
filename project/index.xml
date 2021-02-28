@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Paul Liu</title>
+    <link>//localhost:1313/project/</link>
+    <description>Recent content in Projects on Paul Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Procrastinating since &#39;92.</copyright>
+    <lastBuildDate>Thu, 04 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo: A fast and flexible static site generator built in GoLang</title>
+      <link>//localhost:1313/project/hugo/</link>
+      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/project/hugo/</guid>
+      <description>&amp;lt;img src=&amp;quot;/media/hugo.png&amp;quot; alt=&amp;quot;Hugo Website&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Hugo Website &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
+Hugo makes use of markdown files with front matter for meta data.
+Written in GoLang for speed, Hugo is significantly faster than most other static site generators.</description>
+    </item>
+    
+  </channel>
+</rss>

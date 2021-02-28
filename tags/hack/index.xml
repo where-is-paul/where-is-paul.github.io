@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on Paul Liu</title>
+    <link>//localhost:1313/tags/hack/</link>
+    <description>Recent content in Hack on Paul Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Procrastinating since &#39;92.</copyright>
+    <lastBuildDate>Fri, 16 Nov 2012 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MongoDB Driver days hackathon round up</title>
+      <link>//localhost:1313/papers/10gen-driver-days-mongodb-hack-a-thon/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/papers/10gen-driver-days-mongodb-hack-a-thon/</guid>
+      <description>Two times a year the drivers team at 10gen gathers together for a face to face meeting to spend time together working on issues and setting forth our goals for the upcoming six months. In September 2012 we all converged on New York City for the second ever driver days. This time we split up into teams for a hack-a-thon. As maintainers of drivers &amp;amp; integrations in over a dozen different languages while we are on the same team, it isn’t often that we actually work together on the same codebase.</description>
+    </item>
+    
+  </channel>
+</rss>

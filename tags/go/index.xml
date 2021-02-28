@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>go on Paul Liu</title>
+    <link>//localhost:1313/tags/go/</link>
+    <description>Recent content in go on Paul Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Procrastinating since &#39;92.</copyright>
+    <lastBuildDate>Wed, 27 May 2015 12:28:12 -0700</lastBuildDate><atom:link href="//localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 common mistakes in Go – GopherFest 2015</title>
+      <link>//localhost:1313/teaching/7-common-mistakes-in-go-2015/</link>
+      <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
+      
+      <guid>//localhost:1313/teaching/7-common-mistakes-in-go-2015/</guid>
+      <description>Given at GopherFest 2015. This is an updated version of the talk I gave in NYC Nov 14 at GothamGo.
+“We need to think about failure differently. Most people think mistakes are a necessary evil. Mistakes aren&amp;rsquo;t a necessary evil, they aren&amp;rsquo;t evil at all. They are an inevitable consequence of doing something new and as such should be seen as valuable. “ - Ed Catmull
+As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenting and learning how to write better Go.</description>
+    </item>
+    
+    <item>
+      <title>7 Common mistakes in Go and when to avoid them – Gotham Go</title>
+      <link>//localhost:1313/teaching/7-biggest-mistakes-in-go/</link>
+      <pubDate>Tue, 18 Nov 2014 14:06:00 -0500</pubDate>
+      
+      <guid>//localhost:1313/teaching/7-biggest-mistakes-in-go/</guid>
+      <description>Not a generic list of programming mistakes, these are the lessons I wish I learned earlier while developing Go. I&amp;rsquo;ve spent the past two years developing some of the most popular libraries and applications written in Go. I&amp;rsquo;ve also made a lot of mistakes along the way. Recognizing that &amp;ldquo;The only real mistake is the one from which we learn nothing. -John Powell&amp;rdquo;, I would like to share with you the mistakes that I have made over my journey with Go and when you can avoid them.</description>
+    </item>
+    
+  </channel>
+</rss>
