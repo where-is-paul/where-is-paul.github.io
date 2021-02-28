@@ -1,0 +1,140 @@
+/*============================= navbar settings =========================*/
+.nav {
+	width: 100%;
+	font-variant: small-caps;
+}
+
+.navbar-inner {
+   -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+}
+
+.navbar-fixed-top {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+#nav-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-text {
+	margin: 0px;
+	font-variant: small-caps;
+}
+
+.navbar .brand {
+	font-size: 40px;
+	font-family: "Verdana", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+#nav-container {
+	width: 95%;
+}
+
+/*============================= body settings =========================*/
+
+.container {
+	width: 80%;
+}
+
+body {
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: "Verdana", "Helvetica", sans-serif;
+}
+
+@media (min-width: 979px) {
+	body {
+		padding-top: 100px;
+	}
+  
+	[class*="icon-home"] {
+		visibility: hidden;
+	}
+}
+
+
+/* This stuff here is for the +/- buttons on the publications. */
+
+.expander a {
+    color: #534444;
+    text-decoration: none
+}
+
+.expander .icon-minus-sign {
+    display: inline-block;
+}
+
+.expander .icon-plus-sign {
+    display: none;
+}
+
+.collapsed .icon-plus-sign {
+    display: inline-block;
+}
+
+.collapsed .icon-minus-sign {
+    display: none
+}
+   
+
+/*cheap hack to get data spy to jump to the right place, since navbar places an offset on the page*/
+.page-header {
+	padding-top:100px; 
+	margin-top:-100px
+}
+
+[class*="span"] {
+	margin-left: 0px;
+}
+
+[class*="icon-"] {
+	opacity: 0.3;
+}
+
+/*============================= profile/about section settings =========================*/
+
+#projects ul li {
+	margin-bottom: 1em;
+}
+
+#profile-pic {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#profile-pic img {
+	width: 256px;
+}
+
+/*============================= project section settings =========================*/
+/*to standardize size of project thumbnails so that they dont overflow on small monitors*/
+.span3 {
+	width: 256px;
+}
+
+.thumbnails { 
+	text-align: center; 
+}
+.thumbnails li { 
+	display: inline-table; 
+	float: none; 
+}
+
+.thumbnail {
+	text-align: center;
+}
+
+.thumbnail img {
+	width: 280px;
+}
+
+.thumbnail, .thumbnail:hover { 
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none; 
+	box-shadow: none; 
+	border: none; 
+}

@@ -1,4 +1,4 @@
-# baseurl = "https://cs.stanford.edu/people/paulliu/"
+baseurl = "https://cs.stanford.edu/people/paulliu/"
 languageCode = "en-us"
 copyright = "Procrastinating since '92."
 MetaDataFormat = "toml"
