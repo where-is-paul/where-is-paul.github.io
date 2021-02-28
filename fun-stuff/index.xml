@@ -14,8 +14,8 @@
       <pubDate>Tue, 18 Nov 2014 14:06:00 -0500</pubDate>
       
       <guid>/fun-stuff/badminton/</guid>
-      <description>Trying to think of things to write is hard, so here&amp;rsquo;s a random collection of pictures instead 🙃:
-                                                if (!jQuery) { alert(&#34;jquery is not loaded&#34;</description>
+      <description>Writing things is hard, so here&amp;rsquo;s a random collection of pictures instead:
+                                             if (!jQuery) { alert(&#34;jquery is not loaded&#34;); } $( document ).ready(() = { const gallery = $(&#34;</description>
     </item>
     
   </channel>
