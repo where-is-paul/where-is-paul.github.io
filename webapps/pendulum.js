@@ -157,12 +157,10 @@ setTimeout(function() {
 			clearTimeout(timer);
 			var ms = 200; // milliseconds
 			function updateTable() {
-				console.log("being called..");
-				Gamma = parseFloat($('#gamma').val());
-				maxN = parseInt($('#N').val());
-				theta0 = parseFloat($('#theta0').val())*(Math.PI/180);
-				PendulumNumber = parseInt($('#num').val());
-				if (!PendulumNumber) PendulumNumber = 15;
+				Gamma = parseFloat($('#gamma').val()) ? parseFloat($('#gamma').val()) : Gamma;
+				maxN = parseInt($('#N').val()) ? parseInt($('#N').val()) : maxN;
+				theta0 = parseFloat($('#theta0').val())*(Math.PI/180) ? parseFloat($('#theta0').val())*(Math.PI/180) : theta0;
+				PendulumNumber = parseInt($('#num').val()) ? parseInt($('#num').val()) : PendulumNumber;
 				init();
 			}
 			updateTable();

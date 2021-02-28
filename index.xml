@@ -2,60 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Liu</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Paul Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Procrastinating since &#39;92.</copyright>
-    <lastBuildDate>Wed, 27 May 2015 12:28:12 -0700</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>7 common mistakes in Go – GopherFest 2015</title>
-      <link>//localhost:1313/teaching/7-common-mistakes-in-go-2015/</link>
-      <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
+      <title>Coordinated Motion Planning Through Good Starts and Better Improvements</title>
+      <link>/papers/socg-21-robots/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/teaching/7-common-mistakes-in-go-2015/</guid>
-      <description>Given at GopherFest 2015. This is an updated version of the talk I gave in NYC Nov 14 at GothamGo.
-“We need to think about failure differently. Most people think mistakes are a necessary evil. Mistakes aren&amp;rsquo;t a necessary evil, they aren&amp;rsquo;t evil at all. They are an inevitable consequence of doing something new and as such should be seen as valuable. “ - Ed Catmull
-As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenting and learning how to write better Go.</description>
+      <guid>/papers/socg-21-robots/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>7 Common mistakes in Go and when to avoid them – Gotham Go</title>
-      <link>//localhost:1313/teaching/7-biggest-mistakes-in-go/</link>
+      <title>Diversity on the Go! Streaming Determinantal Point Processes under a Maximum Induced Cardinality Objective</title>
+      <link>/papers/www-21-mic/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/www-21-mic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elo-MMR: A Rating System for Massive Multiplayer Competitions</title>
+      <link>/papers/www-21-elor/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/www-21-elor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improved Algorithms for Edge Colouring in the W-Streaming Model</title>
+      <link>/papers/sosa-21-colouring/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/sosa-21-colouring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Polynomial Lower Bound on Adaptive Complexity of Submodular Maximization</title>
+      <link>/papers/stoc-20-adaptive/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/stoc-20-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retrieving Top Weighted Triangles in Graphs</title>
+      <link>/papers/wsdm-20-triangles/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/wsdm-20-triangles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sampling Methods for Counting Temporal Motifs</title>
+      <link>/papers/wsdm-19-temporal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/wsdm-19-temporal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submodular Optimization in the MapReduce Model</title>
+      <link>/papers/sosa-19-submod/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/sosa-19-submod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximation Schemes for Covering and Packing in the Streaming Model</title>
+      <link>/papers/cccg-18-streaming/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/cccg-18-streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greedy and Local Ratio Algorithms in the MapReduce Model</title>
+      <link>/papers/spaa-18-local-ratio/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/spaa-18-local-ratio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximation Algorithms for the Unit Disk Cover Problem in 2D and 3D</title>
+      <link>/papers/cccg-15-discs/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/cccg-15-discs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SYM-ILDL: Incomplete $LDL^T$ Factorization of Symmetric Indefinite and Skew-Symmetric Matrices</title>
+      <link>/papers/acmtoms-17-ldlt/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/acmtoms-17-ldlt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing Minimum-Length Coordinated Motions for Two Discs</title>
+      <link>/papers/cccg-16-coordinate/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/cccg-16-coordinate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/fun-stuff/badminton/</link>
       <pubDate>Tue, 18 Nov 2014 14:06:00 -0500</pubDate>
       
-      <guid>//localhost:1313/teaching/7-biggest-mistakes-in-go/</guid>
-      <description>Not a generic list of programming mistakes, these are the lessons I wish I learned earlier while developing Go. I&amp;rsquo;ve spent the past two years developing some of the most popular libraries and applications written in Go. I&amp;rsquo;ve also made a lot of mistakes along the way. Recognizing that &amp;ldquo;The only real mistake is the one from which we learn nothing. -John Powell&amp;rdquo;, I would like to share with you the mistakes that I have made over my journey with Go and when you can avoid them.</description>
+      <guid>/fun-stuff/badminton/</guid>
+      <description>Trying to think of things to write is hard, so here&amp;rsquo;s a random collection of pictures instead 🙃:
+                                             if (!jQuery) { alert(&#34;jquery is not loaded&#34;); } $( document ).</description>
     </item>
     
     <item>
-      <title>Hugo: A fast and flexible static site generator built in GoLang</title>
-      <link>//localhost:1313/project/hugo/</link>
-      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      <title>A Fast 25/6-approximation for the Minimum Unit Disk Cover Problem</title>
+      <link>/papers/arxiv-14-udc/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/project/hugo/</guid>
-      <description>&amp;lt;img src=&amp;quot;/media/hugo.png&amp;quot; alt=&amp;quot;Hugo Website&amp;quot; /&amp;gt; &amp;lt;figcaption&amp;gt; &amp;lt;p&amp;gt; Hugo Website &amp;lt;/p&amp;gt; &amp;lt;/figcaption&amp;gt;  Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
-Hugo makes use of markdown files with front matter for meta data.
-Written in GoLang for speed, Hugo is significantly faster than most other static site generators.</description>
+      <guid>/papers/arxiv-14-udc/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>MongoDB Driver days hackathon round up</title>
-      <link>//localhost:1313/papers/10gen-driver-days-mongodb-hack-a-thon/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>SYM-ILDL</title>
+      <link>/projects/sym-ildl/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/papers/10gen-driver-days-mongodb-hack-a-thon/</guid>
-      <description>Two times a year the drivers team at 10gen gathers together for a face to face meeting to spend time together working on issues and setting forth our goals for the upcoming six months. In September 2012 we all converged on New York City for the second ever driver days. This time we split up into teams for a hack-a-thon. As maintainers of drivers &amp;amp; integrations in over a dozen different languages while we are on the same team, it isn’t often that we actually work together on the same codebase.</description>
+      <guid>/projects/sym-ildl/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>7 security practices you need to follow</title>
-      <link>//localhost:1313/post/7-security-practices-you-need-to-follow/</link>
-      <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
+      <title>Pendulum Wave</title>
+      <link>/projects/pendulum-wave/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/post/7-security-practices-you-need-to-follow/</guid>
-      <description>&amp;lt;img src=&amp;quot;/media/usbkey.jpg&amp;quot; /&amp;gt;  Some of this may seem like a broken record, yet every single time you hear about a bank losing millions of customer data, or a company having a security breach they consistently have failed to implement and enforce the most basic security practices. Here are 7 simple security practices that you cannot afford to not follow.
-1. Secure pass phrases Throw away the notion of a password.</description>
+      <guid>/projects/pendulum-wave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google AI Contest</title>
+      <link>/projects/google-ai/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/google-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI-Assisted Training in Racket Sports</title>
+      <link>/projects/badminton-cv/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/badminton-cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>others</title>
+      <link>/projects/others/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/others/</guid>
+      <description>      </description>
     </item>
     
   </channel>

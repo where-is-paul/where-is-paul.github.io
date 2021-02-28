@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational geometry on Paul Liu</title>
+    <link>/tags/computational-geometry/</link>
+    <description>Recent content in computational geometry on Paul Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Procrastinating since &#39;92.</copyright>
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/computational-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coordinated Motion Planning Through Good Starts and Better Improvements</title>
+      <link>/papers/socg-21-robots/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/socg-21-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximation Schemes for Covering and Packing in the Streaming Model</title>
+      <link>/papers/cccg-18-streaming/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/cccg-18-streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximation Algorithms for the Unit Disk Cover Problem in 2D and 3D</title>
+      <link>/papers/cccg-15-discs/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/cccg-15-discs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing Minimum-Length Coordinated Motions for Two Discs</title>
+      <link>/papers/cccg-16-coordinate/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/cccg-16-coordinate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Fast 25/6-approximation for the Minimum Unit Disk Cover Problem</title>
+      <link>/papers/arxiv-14-udc/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/arxiv-14-udc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

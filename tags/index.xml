@@ -2,126 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Paul Liu</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Paul Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Procrastinating since &#39;92.</copyright>
-    <lastBuildDate>Wed, 27 May 2015 12:28:12 -0700</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Development</title>
-      <link>//localhost:1313/tags/development/</link>
-      <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
+      <title>computational geometry</title>
+      <link>/tags/computational-geometry/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/development/</guid>
+      <guid>/tags/computational-geometry/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>//localhost:1313/tags/go/</link>
-      <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
+      <title>motion planning</title>
+      <link>/tags/motion-planning/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/go/</guid>
+      <guid>/tags/motion-planning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blogging</title>
-      <link>//localhost:1313/tags/blogging/</link>
-      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      <title>bayesian systems</title>
+      <link>/tags/bayesian-systems/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/blogging/</guid>
+      <guid>/tags/bayesian-systems/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>//localhost:1313/tags/golang/</link>
-      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      <title>big data</title>
+      <link>/tags/big-data/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/golang/</guid>
+      <guid>/tags/big-data/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>10gen</title>
-      <link>//localhost:1313/tags/10gen/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>determinantal point process</title>
+      <link>/tags/determinantal-point-process/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/10gen/</guid>
+      <guid>/tags/determinantal-point-process/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Driver Team</title>
-      <link>//localhost:1313/tags/driver-team/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>streaming</title>
+      <link>/tags/streaming/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/driver-team/</guid>
+      <guid>/tags/streaming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Drivers</title>
-      <link>//localhost:1313/tags/drivers/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>colouring</title>
+      <link>/tags/colouring/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/drivers/</guid>
+      <guid>/tags/colouring/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>github</title>
-      <link>//localhost:1313/tags/github/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>graph algorithms</title>
+      <link>/tags/graph-algorithms/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/github/</guid>
+      <guid>/tags/graph-algorithms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hack</title>
-      <link>//localhost:1313/tags/hack/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>adaptive model</title>
+      <link>/tags/adaptive-model/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/hack/</guid>
+      <guid>/tags/adaptive-model/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hack Day</title>
-      <link>//localhost:1313/tags/hack-day/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>submodular optimization</title>
+      <link>/tags/submodular-optimization/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/hack-day/</guid>
+      <guid>/tags/submodular-optimization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>mongodb</title>
-      <link>//localhost:1313/tags/mongodb/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>mapreduce</title>
+      <link>/tags/mapreduce/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/mongodb/</guid>
+      <guid>/tags/mapreduce/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Thon</title>
-      <link>//localhost:1313/tags/thon/</link>
-      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      <title>local ratio</title>
+      <link>/tags/local-ratio/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/thon/</guid>
+      <guid>/tags/local-ratio/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>security</title>
-      <link>//localhost:1313/tags/security/</link>
-      <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
+      <title>numerical analysis</title>
+      <link>/tags/numerical-analysis/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/security/</guid>
+      <guid>/tags/numerical-analysis/</guid>
       <description></description>
     </item>
     

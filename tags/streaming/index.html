@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="streaming : https://cs.stanford.edu/people/paulliu/"/>
+<meta property="og:site_name" content="The webpage of Paul Liu"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="/tags/streaming/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-02-14"/>
+<meta property="article:modified_time" content="2021-02-14"/>
+
+
+
+
+
+
+    <base href="">
+    <title> streaming </title>
+    <link rel="canonical" href="/tags/streaming/">
+    <link href="/tags/streaming/index.xml" rel="alternate" type="application/rss+xml" title="streaming" />
+
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="/css/ZGS.min.697617a9095455be5e406cbb4178528a9fc6257e655fcbf5a30d804cb0917a89.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-paul" id="logo"> </div></a>
+    </figure>
+    <nav id="nav">
+    <ul id="mainnav">
+    <li>
+        <a href="/papers/">
+        <span class="icon"> <i aria-hidden="true" class="icon-pencil"></i></span>
+        <span> papers </span>
+    </a>
+    </li>
+    <li>
+    <a href="/projects/">
+        <span class="icon"> <i aria-hidden="true" class="icon-code"></i></span>
+        <span> projects </span>
+    </a>
+    </li>
+    <li>
+    <a href="/fun-stuff/">
+        <span class="icon"> <i aria-hidden="true" class="icon-pacman"></i></span>
+        <span> fun stuff </span>
+    </a>
+    </li>
+</ul>
+
+    <div class="social">
+    <a href="https://www.linkedin.com/in/where-is-paul/" class="linkedin" title="LinkedIn"><span class="icon icon-linkedin"></span></a>
+    <a href="https://github.com/where-is-paul/" title="GitHub" class="github"><span class="icon icon-github"></span></a>
+    <a href="https://scholar.google.com/citations?user=3ct054AAAAAJ&hl=en" title="Scholar" class="scholar"><span class="icon icon-scholar"></span></a>
+    <a href="files/webcv.pdf" title="CV" class="cv"><span class="icon icon-attachment"></span></a>
+</div>
+    </nav>
+</header>
+
+
+<section id="main">
+   <div>
+   <h1 id="title">streaming</h1>
+   <ul id="list">
+    
+        <li>
+<details> 
+<summary style="outline: none; display: flex; align-items: baseline;">
+<div style="flex: 0.75">Diversity on the Go! Streaming Determinantal Point Processes under a Maximum Induced Cardinality Objective</div>
+<div class="meta right" style="flex: 0.25; margin-left: 0.5em; font-weight: 600"> WWW 2021</div>
+</summary>
+
+<div class="medium">
+Paul Liu, Akshay Soni, Eun Yong Kang, Yajun Wang, Mehul Parsana
+</div>
+<hr style="border-top: 0px solid #8c8b8b;"/>
+
+<div class="abstract">
+
+<figure class="thumbnail left" style="margin: 1em">
+    
+        <a href="files/www-2021-mic.pdf" style="all: revert">
+            <img src="img/www-2021-mic.png">
+        </a>
+    
+</figure>
+
+<p>
+Over the past decade, Determinantal Point Processes (DPPs) have proven to be a mathematically elegant framework for modeling diversity. Given a set of items $N$, DPPs define a probability distribution over subsets of $N$, with sets of larger diversity having greater probability. Recently, DPPs have achieved success in the domain of recommendation systems, as a method to enforce diversity of recommendations in addition to relevance.</p><p>In large-scale recommendation applications however, the input typically comes in the form of a stream too large to fit into main memory. However, the natural greedy algorithm for DPP-based recommendations is memory intensive, and cannot be used in a streaming setting.</p><p>In this work, we give the first streaming algorithm for optimizing DPPs under the Maximum Induced Cardinality (MIC) objective of Gillenwater et al. As noted by Gillenwater et al., the MIC objective is better suited towards recommendation systems than the classically used maximum a posteriori (MAP) DPP objective. In the insertion-only streaming model, our algorithm runs in $\tilde{O}(k^2)$ time per update and uses $\tilde{O}(k)$ memory, where $k$ is the number of diverse items to be selected. In the sliding window streaming model, our algorithm runs in $\tilde{O}(\sqrt{n}k^2)$ time per update and $\tilde{O}(\sqrt{n}k)$ memory where $n$ is the size of the sliding window. The approximation guarantees are simple, and depend on the largest and the $k$-th largest eigenvalues of the kernel matrix used to model diversity. We show that in practice, the algorithm often achieves close to optimal results, and meets the memory and latency requirements of production systems. Furthermore, the algorithm works well even in a non-streaming setting, and runs in a fraction of time compared to the classic greedy algorithm.
+</p>
+</div>
+
+
+<ul id="tags-special">
+  
+    <a href="/tags/streaming">streaming</a>
+  
+    <a href="/tags/determinantal-point-process">determinantal point process</a>
+  
+</ul>
+
+
+
+<a href="files/www-2021-mic.pdf">[pdf]</a>
+
+
+<a href="https://gitlab.com/paul.liu.ubc/streaming-mic-dpp" style="color:indigo">[code]</a>
+
+
+
+
+
+
+</details>
+</li>
+    
+        <li>
+<details> 
+<summary style="outline: none; display: flex; align-items: baseline;">
+<div style="flex: 0.75">Improved Algorithms for Edge Colouring in the W-Streaming Model</div>
+<div class="meta right" style="flex: 0.25; margin-left: 0.5em; font-weight: 600"> SOSA@SODA 2021</div>
+</summary>
+
+<div class="medium">
+Paul Liu and Moses Charikar
+</div>
+<hr style="border-top: 0px solid #8c8b8b;"/>
+
+<div class="abstract">
+
+<p>
+In the W-streaming model, an algorithm is given $O(n \text{polylog} n)$ space and must process a large graph of up to $O(n^2)$ edges. In this short note we give two algorithms for edge colouring under the W-streaming model. For edge colouring in W-streaming, a colour for every edge must be determined by the time all the edges are streamed. Our first algorithm uses $\Delta+o(\Delta)$ colours in $O(n \log^2 n)$ space when the edges arrive according to a uniformly random permutation. The second algorithm uses $(1+o(1))\Delta^2/s$ colours in $\tilde{O}(ns)$ space when edges arrival adversarially.
+</p>
+</div>
+
+
+<ul id="tags-special">
+  
+    <a href="/tags/graph-algorithms">graph algorithms</a>
+  
+    <a href="/tags/streaming">streaming</a>
+  
+    <a href="/tags/colouring">colouring</a>
+  
+</ul>
+
+
+
+<a href="files/sosa-2021.pdf">[pdf]</a>
+
+
+
+
+
+<a href="files/sosa-2021-slides.pdf" style="color:orange">[slides]</a>
+
+
+<a href="https://player.vimeo.com/video/497237518" style="color:green" target="_blank">[video]</a>
+
+
+</details>
+</li>
+    
+        <li>
+<details> 
+<summary style="outline: none; display: flex; align-items: baseline;">
+<div style="flex: 0.75">Approximation Schemes for Covering and Packing in the Streaming Model</div>
+<div class="meta right" style="flex: 0.25; margin-left: 0.5em; font-weight: 600"> CCCG 2018</div>
+</summary>
+
+<div class="medium">
+Christopher Liaw, Paul Liu, Robert Reiss
+</div>
+<hr style="border-top: 0px solid #8c8b8b;"/>
+
+<div class="abstract">
+
+<figure class="thumbnail left" style="margin: 1em">
+    
+        <a href="files/cccg-2018.pdf" style="all: revert">
+            <img src="img/cccg-18.png">
+        </a>
+    
+</figure>
+
+<p>
+Within the computational geometry (CG) community, the <b>shifting strategy</b> is a popular algorithmic paradigm for approximation algorithms. In this work we revisit the shifting strategy in the streaming model. Using the streaming-shifting strategy, we give low-memory approximation algorithms for classical CG problems such as unit disc cover. When combined with the shifting coreset technique of Fonseca et al., we are able to approximate streaming variants of geometric dominating set, independent set, etc.
+</p>
+</div>
+
+
+<ul id="tags-special">
+  
+    <a href="/tags/computational-geometry">computational geometry</a>
+  
+    <a href="/tags/streaming">streaming</a>
+  
+</ul>
+
+
+
+<a href="files/cccg-2018.pdf">[pdf]</a>
+
+
+
+
+
+
+
+</details>
+</li>
+    
+   </ul>
+  </div>
+</section>
+
+<aside id="meta"> </aside>
+
+<footer>
+  <div>
+   
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>
+

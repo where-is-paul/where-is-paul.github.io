@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>determinantal point process on Paul Liu</title>
+    <link>/tags/determinantal-point-process/</link>
+    <description>Recent content in determinantal point process on Paul Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Procrastinating since &#39;92.</copyright>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/determinantal-point-process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diversity on the Go! Streaming Determinantal Point Processes under a Maximum Induced Cardinality Objective</title>
+      <link>/papers/www-21-mic/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/www-21-mic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
