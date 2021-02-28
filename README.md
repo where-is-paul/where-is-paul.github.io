@@ -1,4 +1,4 @@
-inutard.github.com
+where-is-paul.github.com
 ==================
 
-A backup of my UBC website as well as a place to experiment with new designs.
+A backup of my Stanford website as well as a place to experiment with new designs.
