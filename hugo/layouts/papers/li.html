@@ -1,3 +1,4 @@
+{{ $baseurl := .Site.BaseURL }}
 <li>
 <details> 
 <summary style="outline: none; display: flex; align-items: baseline;">
@@ -14,11 +15,11 @@
 {{ if isset .Params "figure" }}
 <figure class="thumbnail left" style="margin: 1em">
     {{ if isset .Params "file" }}
-        <a href="files/{{ .Params.file }}" style="all: revert">
-            <img src="img/{{.Params.figure}}">
+        <a href="{{ $baseurl }}/files/{{ .Params.file }}" style="all: revert">
+            <img src="{{ $baseurl }}/img/{{.Params.figure}}">
         </a>
     {{ else }}
-        <img src="img/{{.Params.figure}}">
+        <img src="{{ $baseurl }}/img/{{.Params.figure}}">
     {{ end }}
 </figure>
 {{ end }}
@@ -27,7 +28,6 @@
 </p>
 </div>
 
-{{ $baseurl := .Site.BaseURL }}
 <ul id="tags-special">
   {{ range .Params.tags }}
     <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>
@@ -36,7 +36,7 @@
 
 <!-- <div style="font-weight: 600"> -->
 {{ if isset .Params "file" }}
-<a href="files/{{ .Params.file }}">[pdf]</a>
+<a href="{{ $baseurl }}/files/{{ .Params.file }}">[pdf]</a>
 {{ end }}
 {{ if isset .Params "code" }}
 <a href="{{ .Params.code }}" style="color:indigo">[code]</a>
@@ -45,10 +45,10 @@
 <a href="{{ .Params.code }}" style="color:brown">[data]</a>
 {{ end }}
 {{ if isset .Params "poster" }}
-<a href="files/{{ .Params.poster }}" style="color:violet">[poster]</a>
+<a href="{{ $baseurl }}/files/{{ .Params.poster }}" style="color:violet">[poster]</a>
 {{ end }}
 {{ if isset .Params "slides" }}
-<a href="files/{{ .Params.slides }}" style="color:orange">[slides]</a>
+<a href="{{ $baseurl }}/files/{{ .Params.slides }}" style="color:orange">[slides]</a>
 {{ end }}
 {{ if isset .Params "video" }}
 <a href="{{ .Params.video }}" style="color:green" target="_blank">[video]</a>
