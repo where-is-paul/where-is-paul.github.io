@@ -1,281 +1,0 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="description" content="">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<meta name="keywords" content="go, development, ">
-
- 
-<meta property="og:type" content="article"/>
-<meta property="og:description" content=""/>
-<meta property="og:title" content="7 common mistakes in Go – GopherFest 2015 : https://cs.stanford.edu/people/paulliu/"/>
-<meta property="og:site_name" content="The webpage of Paul Liu"/>
-<meta property="og:image" content="" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="" />
-<meta property="og:image:height" content="" />
-<meta property="og:url" content="//localhost:1313/teaching/7-common-mistakes-in-go-2015/">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2015-05-27"/>
-<meta property="article:modified_time" content="2015-05-27"/>
-
-
-
-<meta property="article:tag" content="go">
-<meta property="article:tag" content="development">
-
-
-
-
-
-    <base href="//localhost:1313/">
-    <title> 7 common mistakes in Go – GopherFest 2015 - spf13.com </title>
-    <link rel="canonical" href="//localhost:1313/teaching/7-common-mistakes-in-go-2015/">
-    
-
-    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
-
-<link rel="stylesheet" href="//localhost:1313/css/ZGS.min.809305cd42cd9e7479dd888dc4ddc88aa8353bab8c769f1a5b7274a4226061e3.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-</head>
-
-<body lang="en" itemscope itemtype="http://schema.org/Article">
-<header id="header">
-    <figure>
-      <a href="/" border=0 id="logolink">
-      	<div class="icon-paul" id="logo" />
-      </a>
-    </figure>
-    <nav id="nav">
-    <ul id="mainnav">
-    <li>
-        <a href="/papers/">
-        <span class="icon"> <i aria-hidden="true" class="icon-pencil"></i></span>
-        <span> papers </span>
-    </a>
-    </li>
-    <li>
-    <a href="/project/">
-        <span class="icon"> <i aria-hidden="true" class="icon-code"></i></span>
-        <span> projects </span>
-    </a>
-    </li>
-    <li>
-    <a href="/teaching/">
-        <span class="icon"> <i aria-hidden="true" class="icon-graduation"></i></span>
-        <span> teaching </span>
-    </a>
-    </li>
-</ul>
-
-    <div class="social">
-<a href="https://www.linkedin.com/in/where-is-paul/" target="_blank" title="LinkedIn" class="icon icon-linkedin" />
-<a href="https://github.com/where-is-paul/" target="_blank" title="GitHub" class="icon icon-github" />
-<a href="https://scholar.google.com/citations?user=3ct054AAAAAJ&hl=en" target="_blank" class="icon icon-scholar" />
-</div>
-    </nav>
-</header>
-
-
-
-<section id="main">
-  <h1 itemprop="name" id="title">7 common mistakes in Go – GopherFest 2015</h1>
-  <div>
-        <article itemprop="articleBody" id="content">
-           <p>Given at <a href="http://www.meetup.com/golangsf/events/220935959/">GopherFest 2015</a>. This is an updated version of the <a href="/presentation/7-biggest-mistakes-in-go/">talk I gave in NYC
-Nov 14 at GothamGo</a>.</p>
-<p>“We need to think about failure differently. Most people think mistakes are a
-necessary evil. Mistakes aren&rsquo;t a necessary evil, they aren&rsquo;t evil at all. They
-are an inevitable consequence of doing something new and as such should be seen
-as valuable. “ - Ed Catmull</p>
-<p>As Go is a &ldquo;new&rdquo; programming language we are all experimenting and learning how
-to write better Go. While most presentations focus on the destination, this
-presentation focuses on the journey of learning Go and the mistakes I
-personally made while developing <a href="https://gohugo.io">Hugo</a>, <a href="https://cobra.dev">Cobra</a>, <a href="https://github.com/spf13/viper">Viper</a>, <a href="https://github.com/spf13/afero">Afero</a> &amp; <a href="https://docker.com">Docker</a>.</p>
-<!-- raw HTML omitted -->
-<h2 id="recording">Recording</h2>
-<!-- raw HTML omitted -->
-<p><em>Edit: A better recording was made, previously the post linked to the livestream</em></p>
-<h2 id="transcript">Transcript</h2>
-<ol>
-<li>7 and when to avoid them Common  Mistakes   In Go</li>
-<li>@Spf13 Docker   Chief Operator  &amp; Author of Hugo, Cobra, Afero, Viper </li>
-<li>image of “F” on a paper</li>
-<li>“Do you want to know the difference between a master and a beginner? The master has failed more times than the beginner has tried.”</li>
-<li>–Ed Catmull “We need to think about failure differently. Most people think mistakes are a necessary evil. Mistakes aren&rsquo;t a necessary evil, they aren&rsquo;t evil at all. They are an inevitable consequence of doing something new and as such should be seen as valuable. “</li>
-<li>Mistake .     Not Accepting Interfaces 1</li>
-<li>State &amp; Behavior •Types can express state &amp; behavior •State = data structure •Behavior = methods</li>
-<li>Interfaces •One of Go’s most powerful features •Permits extensibility •Deﬁned by methods •Adherence is only satisﬁed by behavior</li>
-<li>•Fastest static site generator •Native Go •35+ themes •Flexible •100s of contributors •Powers GopherAcademy gohugo.io</li>
-<li>func (page *Page) saveSourceAs(path string) { b := new(bytes.Buffer) b.Write(page.Source.Content) page.saveSource(b.Bytes(), path) } func (page *Page) saveSource(by []byte, inpath string) { WriteToDisk(inpath, bytes.NewReader(by)) } Stop Doing This!!</li>
-<li>func (page *Page) saveSourceAs(path string) { b := new(bytes.Buffer) b.Write(page.Source.Content) page.saveSource(b.Bytes(), path) } func (page *Page) saveSource(by []byte, inpath string) { WriteToDisk(inpath, bytes.NewReader(by)) } Stop Doing This!!</li>
-<li>func (page *Page) saveSourceAs(path string) { b := new(bytes.Buffer) b.Write(page.Source.Content) page.saveSource(b.Bytes(), path) } func (page *Page) saveSource(by []byte, inpath string) { WriteToDisk(inpath, bytes.NewReader(by)) } Stop Doing This!! <a href="https://github.com/spf13/hugo/blob/master/hugolib/page.go#L582">https://github.com/spf13/hugo/blob/master/hugolib/page.go#L582</a></li>
-<li>func (page *Page) saveSourceAs(path string) { b := new(bytes.Buffer) b.Write(page.Source.Content) page.saveSource(b, path) } func (page *Page) saveSource(b io.Reader, inpath string) { WriteToDisk(inpath, b) } Instead</li>
-<li>Mistake .     Not Using Io.Reader &amp; Io.Writer 2</li>
-<li>Io.Reader &amp; Io.Writer •Simple &amp; ﬂexible interfaces for many operations around input and output •Provides access to a huge wealth of functionality •Keeps operations extensible</li>
-<li>type Reader interface { Read(p []byte) (n int, err error) } type Writer interface { Write(p []byte) (n int, err error) } Io.Reader &amp; Io.Writer</li>
-<li>Cobra Cli Commander •Fast and ﬂexible •Powers   Kubernetes &amp; Hugo •Provides subcommands, help, man pages, bash autocomplete github.com/spf13/cobra</li>
-<li>// SetOutput sets the destination for usage and error messages. // If output is nil, os.Stderr is used. func (c *Command) SetOutput(o io.Writer) { c.output = o } Cobra Apps Enabled</li>
-<li>Viper •Conﬁguration management •Supports json, yaml, toml, defaults, ﬂags, env vars &amp; remote key value •Supports nesting, cascading &amp; aliases github.com/spf13/viper</li>
-<li>func (v *Viper) ReadBufConfig(buf *bytes.Buffer) error { v.config = make(map[string]interface{}) v.marshalReader(buf, v.config) return nil } Really Stop Doing This!!</li>
-<li>func (v *Viper) ReadConfig(in io.Reader) error { v.config = make(map[string]interface{}) v.marshalReader(in, v.config) return nil } Instead</li>
-<li>Mistake .    Requiring Broad Interfaces 3</li>
-<li>Interfaces Are Composable •Functions should only accept interfaces that require the methods they need •Functions should not accept a broad interface when a narrow one would work •Compose broad interfaces made from narrower ones</li>
-<li>Afero Fs •File system abstraction •Uses standard OS interfaces •Drop in replacement for OS •Great for testing &amp; mocking •Cross platform memory backed ﬁlesystem github.com/spf13/afero</li>
-<li>type File interface { io.Closer io.Reader io.ReaderAt io.Seeker io.Writer io.WriterAt } Composing Interfaces</li>
-<li>func ReadIn(f File) { b := []byte{} n, err := f.Read(b) &hellip; } Requiring Broad Interfaces</li>
-<li>func ReadIn(r Reader) { b := []byte{} n, err := r.Read(b) &hellip; } Requiring Narrow Interfaces</li>
-<li>Mistake .    Methods Vs Functions 4</li>
-<li>Too Many Methods •A lot of people from OO backgrounds overuse methods •Natural draw to deﬁne everything via structs and methods</li>
-<li>What Is A Function? •Operations performed on N1 inputs that results in N2 outputs •The same inputs will always result in the same outputs •Functions should not depend on state</li>
-<li>What Is A Method? •Deﬁnes the behavior of a type •A function that operates against a value •Should use state •Logically connected</li>
-<li>Functions Can Be Used With Interfaces •Methods, by deﬁnition, are bound to a speciﬁc type •Functions can accept interfaces as input</li>
-<li>func extractShortcodes(s string, p *Page, t Template) (string, map[string]shortcode, error) { &hellip; for { switch currItem.typ { &hellip; case tError: err := fmt.Errorf(&quot;%s:%d: %s&quot;, p.BaseFileName(), (p.lineNumRawContentStart() + pt.lexer.lineNum() - 1), currItem) } } &hellip; } Example From Hugo</li>
-<li>func extractShortcodes(s string, p *Page, t Template) (string, map[string]shortcode, error) { &hellip; for { switch currItem.typ { &hellip; case tError: err := fmt.Errorf(&quot;%s:%d: %s&quot;, p.BaseFileName(), (p.lineNumRawContentStart() + pt.lexer.lineNum() - 1), currItem) } } &hellip; } Example From Hugo</li>
-<li>Mistake .     Pointers Vs Values 5</li>
-<li>Pointers Vs Values •It’s not a question of performance (generally), but one of shared access •If you want to share the value with a function or method, then use a pointer •If you don’t want to share it, then use a value (copy)</li>
-<li>func (page *Page) saveSource(b io.Reader)  func (page Page) saveSource(b io.Reader) Pointer Vs Value Receivers</li>
-<li>Pointer Receivers •If you want to share a value with it’s method, use a pointer receiver •Since methods commonly manage state, this is the common usage •Not safe for concurrent access</li>
-<li>Value Receivers •If you want the value copied (not shared), use values •If the type is an empty struct (stateless, just behavior)… then just use value •Safe for concurrent access</li>
-<li>type InMemoryFile struct { at int64 name string data []byte closed bool } func (f *InMemoryFile) Close() error { atomic.StoreInt64(&amp;f.at, 0) f.closed = true return nil } Afero File</li>
-<li>type Time struct { sec int64 nsec uintptr loc *Location } func (t Time) IsZero() bool { return t.sec == 0 &amp;&amp; t.nsec == 0 } Time</li>
-<li>Mistake .     Thinking Of Errors As Strings 6</li>
-<li>type error interface { Error() string } Error Is An Interface</li>
-<li>Standard Errors •errors.New(“error here”) is usually sufﬁcient •Exported Error Variables can be easily checked</li>
-<li>func NewPage(name string) (p *Page, err error) { if len(name) == 0 { return nil,   errors.New(&ldquo;Zero length page name&rdquo;) }    Standard Error</li>
-<li>var ErrNoName = errors.New(&ldquo;Zero length page name&rdquo;)    func NewPage(name string) (*Page, error) { if len(name) == 0 { return nil, ErrNoName }    Exported Error Var</li>
-<li>var ErrNoName = errors.New(&ldquo;Zero length page name&rdquo;)    func Foo(name string) (error) { err := NewPage(&ldquo;bar&rdquo;) if err == ErrNoName { newPage(&ldquo;default&rdquo;) } else { log.FatalF(err) } }  Exported Error Var</li>
-<li>Custom Errors •Can provide context to guarantee consistent feedback •Provide a type which can be different from the error value •Can provide dynamic values   (based on internal error state)</li>
-<li>•Container runtime &amp; image format •Native Go •22k stars •1000+ contributors docker.com</li>
-<li>type Error struct { Code ErrorCode Message string Detail interface{} } // Error returns a human readable representation of the error. func (e Error) Error() string { return fmt.Sprintf(&quot;%s: %s&quot;, strings.ToLower(strings.Replace(e.Code.String(), &ldquo;_&rdquo;, &quot; &ldquo;, -1)), e.Message) } Internationalization Of Errors</li>
-<li>Go StdLib •Standard Go   Libraries •Comprehensive and   powerful •Great examples of “good” Go <a href="http://golang.org/pkg/">http://golang.org/pkg/</a></li>
-<li>// Portable analogs of some common system call errors. var ErrInvalid = errors.New(&ldquo;invalid argument&rdquo;) var ErrPermission = errors.New(&ldquo;permission denied&rdquo;) // PathError records an error and // the operation and file path that caused it. type PathError struct { Op string Path string Err error } func (e *PathError) Error() string { return e.Op + &quot; &quot; + e.Path + &ldquo;: &quot; + e.Err.Error() } Custom Errors : Os</li>
-<li>// Portable analogs of some common system call errors. var ErrInvalid = errors.New(&ldquo;invalid argument&rdquo;) var ErrPermission = errors.New(&ldquo;permission denied&rdquo;) // PathError records an error and // the operation and file path that caused it. type PathError struct { Op string Path string Err error } func (e *PathError) Error() string { return e.Op + &quot; &quot; + e.Path + &ldquo;: &quot; + e.Err.Error() } Custom Errors : Os</li>
-<li>func (f *File) WriteAt(b []byte, off int64) (n int, err error) { if f == nil { return 0, ErrInvalid } for len(b) &gt; 0 { m, e := f.pwrite(b, off) if e != nil { err = &amp;PathError{&ldquo;write&rdquo;, f.name, e} break } n += m b = b[m:] off += int64(m) } return } Custom Errors : Os</li>
-<li>func (f *File) WriteAt(b []byte, off int64) (n int, err error) { if f == nil { return 0, ErrInvalid } for len(b) &gt; 0 { m, e := f.pwrite(b, off) if e != nil { err = &amp;PathError{&ldquo;write&rdquo;, f.name, e} break } n += m b = b[m:] off += int64(m) } return } Custom Errors : Os</li>
-<li>func (f *File) WriteAt(b []byte, off int64) (n int, err error) { if f == nil { return 0, ErrInvalid } for len(b) &gt; 0 { m, e := f.pwrite(b, off) if e != nil { err = &amp;PathError{&ldquo;write&rdquo;, f.name, e} break } n += m b = b[m:] off += int64(m) } return } Custom Errors : Os</li>
-<li>func baa(f *file) error { … n, err := f.WriteAt(x, 3) if _, ok := err.(*PathError) { …  } else { log.Fatalf(err) } } Custom Errors : Os</li>
-<li>… if serr != nil { if serr, ok := serr.(*PathError); ok &amp;&amp; serr.Err == syscall.ENOTDIR { return nil } return serr … Custom Errors : Os</li>
-<li>… if serr != nil { if serr, ok := serr.(*PathError); ok &amp;&amp; serr.Err == syscall.ENOTDIR { return nil } return serr … Custom Errors : Os</li>
-<li>Mistake .     To Be Safe Or Not To Be 7</li>
-<li>You Can’t Make Everyone Happy  You Aren’t A Jar Of Nutella</li>
-<li>Consider Concurrency •If you provide a library someone will use it concurrently •Data structures are not safe for concurrent access •Values aren’t safe, you need to create safe behavior around them</li>
-<li>Making It Safe •Sync package provides behavior to make a value safe (Atomic/ Mutex) •Channels coordinate values across go routines by permitting one go routine to access at a time</li>
-<li>func (m *MMFS) Create(name string) (File, error) { m.getData()[name] = MemFileCreate(name) m.registerDirs(m.getData()[name]) return m.getData()[name], nil } Maps Are Not Safe</li>
-<li>func (m *MMFS) Create(name string) (File, error) { m.getData()[name] = MemFileCreate(name) m.registerDirs(m.getData()[name]) return m.getData()[name], nil } Maps Are Not Safe</li>
-<li>panic: runtime error: invalid memory address or nil pointer dereference [signal 0xb code=0x1 addr=0x28 pc=0x1691a7] goroutine 90 [running]: runtime.panic(0x501ea0, 0x86b104) /usr/local/Cellar/go/1.3.3/libexec/src/pkg/runtime/ panic.c:279 +0xf5 github.com/spf13/afero. (*MemMapFs).registerDirs(0xc208000860, 0x0, 0x0) /Users/spf13/gopath/src/github.com/spf13/afero/ memmap.go:88 +0x27 Maps Are Not Safe</li>
-<li>func (m *MMFS) Create(name string) (File, error) { m.lock() m.getData()[name] = MemFileCreate(name) m.unlock() m.registerDirs(m.getData()[name]) return m.getData()[name], nil } Safe Maps With Mutex</li>
-<li>Keeping It Unsafe •Safety comes at a cost •Imposes behaviors on consumer •Proper API allows consumers to add safety as needed •Consumers can use channels or mutexes</li>
-<li>func (m *MMFS) Create(name string) (File, error) { m.lock() m.getData()[name] = MemFileCreate(name) m.unlock() m.registerDirs(m.getData()[name]) return m.getData()[name], nil } Safe Maps With Mutex</li>
-<li>Maps Are Unsafe By Design •Often safety is unnecessary •Enables consumers to implement safety as needed •Enables consumers to implement safety as desired</li>
-<li>Biggsest Mistake; Not Makimg Mistakes</li>
-<li>–Ed Catmull Failure is a manifestation of learning and exploration.     If you aren&rsquo;t experiencing failure than you are making a far worse mistake.     You are being driven by the desire to avoid it.</li>
-<li>@Spf13 Docker   Chief of Operations  &amp; Author of Hugo, Cobra, Afero, Viper </li>
-</ol>
-
-        </article>
-  </div>
-</section>
-
-
-
-<aside id="meta">
-
-    <div>
-        <section id="datecount">
-          <h4 id="date"> Wed May 27, 2015 </h4>
-          <h5 id="wc"> 2000 Words </h5>
-          <h5 id="readtime"> Read in about 9 Min </h5>
-        </section>
-        <ul id="categories">
-          
-            <li><a href="//localhost:1313//topics/development">Development</a> </li>
-          
-            <li><a href="//localhost:1313//topics/golang">golang</a> </li>
-          
-        </ul>
-        <ul id="tags">
-          
-            <li> <a href="//localhost:1313//tags/go">go</a> </li>
-          
-            <li> <a href="//localhost:1313//tags/development">development</a> </li>
-          
-        </ul>
-    </div>
-
-    <div>
-        <section id="prev">
-            &nbsp;<a class="previous" href="//localhost:1313/teaching/7-biggest-mistakes-in-go/"><i class="icon-arrow-left"></i> 7 Common mistakes in Go and when to avoid them – Gotham Go</a><br>
-        </section><section id="next">
-            &nbsp;
-        </section>
-    </div>
-
-    <div> <section id="author"> <h4>About the Author:</h4> 
-
-            <p>
-            Steve Francia is an American Software Engineer, Speaker & Author
-            based in NYC. He has the unique distinction of 
-            leadership roles in five of the largest open source projects. 
-            </p>
-
-            <p>
-            He currently works at <a href="http://google.com">Google</a> on the leadership team 
-            of <a href="http://golang.org">the Go
-                language</a> where  he is responsible for the strategy and product of
-            the Go project and it's over 1M users.
-            </p>
-
-            <p>
-            He previously held executive roles at <a href="http://docker.com">Docker</a>, <a
-            href="http://mongodb.com">MongoDB</a> where he
-            led engineering, product and open source. 
-            He formerly was a director of the <a href="http://drupal.org">Drupal Association</a>.
-            </p>
-            
-            <p> 
-            He is the creator of some of the world's most popular open source applications and libraries including <a href="http://gohugo.io">Hugo</a>, <a
-                href="http://github.com/spf13/cobra">Cobra</a>, <a
-                href="http://github.com/spf13/viper">Viper</a>, <a
-            href="http://vim.spf13.com">spf13-vim</a> and many <a
-            href="http://github.com/spf13">more</a>.
-            </p>
-            
-            <p>
-            Above all of these accomplishments, he is a father of 4. 
-            Outside of technology Steve likes travel, skateboarding, punk rock, and dystopian films.
-            </p>
-
-        </section> </div>
-
-</aside>
-
-<meta itemprop="wordCount" content="1916">
-<meta itemprop="datePublished" content="2015-05-27">
-<meta itemprop="url" content="//localhost:1313/teaching/7-common-mistakes-in-go-2015/">
-
-
-
-<footer>
-  <div>
-    <p>
-    Procrastinating since '92.
-    </p>
-  </div>
-</footer>
-<script type="text/javascript">
-(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
-fitText(document.getElementById('title'), 1)
-</script>
-
-</body>
-</html>
-
