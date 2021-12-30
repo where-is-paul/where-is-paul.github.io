@@ -1,12 +1,14 @@
-baseurl = "https://cs.stanford.edu/people/paulliu/"
+# baseurl = "https://hereispaul.com"
+baseurl = "https://cs.stanford.edu/people/paulliu"
 languageCode = "en-us"
 copyright = "Procrastinating since '92."
 MetaDataFormat = "toml"
-title = "Paul Liu"
+title = "Paul Liu | Stanford"
 assetDir = "assets"
 
-[author]
+[params]
     name = "Paul Liu"
+	description  = "Paul Liu | Stanford"
 
 # [indexes]
 #     tag = "tags"

@@ -1,11 +1,13 @@
+{{ $baseurl := .Site.BaseURL }}
 <!DOCTYPE html>
+<link rel="shortcut icon" href="{{ $baseurl }}/favicon.ico" type="image/x-icon" />
 <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
     <meta charset="utf-8">
 
     {{ partial "meta.html" . }}
 
-    <base href="{{ .Site.BaseURL }}">
+    <base href="{{ $baseurl }}">
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -21,7 +23,7 @@
       <h1 id="title">About</h1>
       <article id="content">
       <figure class="third right">
-        <img src="img/profile.jpg" alt="This is me!">
+        <img src="{{ $baseurl }}/img/profile.jpg" alt="This is me!">
       </figure>
       
       <p>
@@ -37,7 +39,7 @@
       </p>
 
       <p>
-      For work related matters, my CV can be found <a href="files/webcv.pdf">here.</a>
+      For work related matters, my CV can be found <a href="{{ $baseurl }}/files/webcv.pdf">here.</a>
       </p>
       </article>
   </div>

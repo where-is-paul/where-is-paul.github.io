@@ -1,6 +1,7 @@
+{{ $baseurl := .Site.BaseURL }}
 <header id="header">
     <figure>
-      <a href="/" border=0 id="logolink"><div class="icon-paul" id="logo"> </div></a>
+      <a href="{{ $baseurl }}" border=0 id="logolink"><div class="icon-paul" id="logo"> </div></a>
     </figure>
     <nav id="nav">
     {{ partial "nav.html" . }}

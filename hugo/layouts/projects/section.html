@@ -1,7 +1,10 @@
+{{ $baseurl := .Site.BaseURL }}
 {{ partial "header.html" . }}
 
 <body lang="en">
 {{ partial "subheader.html" . }}
+
+<base href={{ $baseurl }}>
 
 <section id="main">
   <div>

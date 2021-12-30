@@ -90,6 +90,14 @@ body > footer {
     }
 }
 
+@media (max-width: 400px) {
+  #header {
+    figure {
+        margin-left: 17%;
+    }
+  }
+}
+
 #logo {
     font-size: 14em;
     line-height: .7em;
