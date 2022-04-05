@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Papers on Paul Liu</title>
+    <title>Papers on Paul Liu | Stanford</title>
     <link>https://cs.stanford.edu/people/paulliu/papers/</link>
-    <description>Recent content in Papers on Paul Liu</description>
+    <description>Recent content in Papers on Paul Liu | Stanford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Procrastinating since &#39;92.</copyright>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cs.stanford.edu/people/paulliu/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cs.stanford.edu/people/paulliu/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Coordinated Motion Planning Through Good Starts and Better Improvements</title>
+      <title>Cardinality constrained submodular maximization for random streams</title>
+      <link>https://cs.stanford.edu/people/paulliu/papers/neurips-21-submod-streaming/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/papers/neurips-21-submod-streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Query Categorization with Categorical Graph Neural Networks</title>
+      <link>https://cs.stanford.edu/people/paulliu/papers/bigdata-21-gnn/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/papers/bigdata-21-gnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coordinated Motion Planning Through Randomized k-Opt</title>
       <link>https://cs.stanford.edu/people/paulliu/papers/socg-21-robots/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       

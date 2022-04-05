@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Paul Liu</title>
-    <link>/projects/</link>
-    <description>Recent content in Projects on Paul Liu</description>
+    <title>Projects on Paul Liu | Stanford</title>
+    <link>https://cs.stanford.edu/people/paulliu/projects/</link>
+    <description>Recent content in Projects on Paul Liu | Stanford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Procrastinating since &#39;92.</copyright>
-    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://cs.stanford.edu/people/paulliu/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SYM-ILDL</title>
-      <link>/projects/sym-ildl/</link>
+      <link>https://cs.stanford.edu/people/paulliu/projects/sym-ildl/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>/projects/sym-ildl/</guid>
+      <guid>https://cs.stanford.edu/people/paulliu/projects/sym-ildl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pendulum Wave</title>
-      <link>/projects/pendulum-wave/</link>
+      <link>https://cs.stanford.edu/people/paulliu/projects/pendulum-wave/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>/projects/pendulum-wave/</guid>
+      <guid>https://cs.stanford.edu/people/paulliu/projects/pendulum-wave/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google AI Contest</title>
-      <link>/projects/google-ai/</link>
+      <link>https://cs.stanford.edu/people/paulliu/projects/google-ai/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>/projects/google-ai/</guid>
+      <guid>https://cs.stanford.edu/people/paulliu/projects/google-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI-Assisted Training in Racket Sports</title>
-      <link>/projects/badminton-cv/</link>
+      <link>https://cs.stanford.edu/people/paulliu/projects/badminton-cv/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
-      <guid>/projects/badminton-cv/</guid>
+      <guid>https://cs.stanford.edu/people/paulliu/projects/badminton-cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>others</title>
-      <link>/projects/others/</link>
+      <link>https://cs.stanford.edu/people/paulliu/projects/others/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
       
-      <guid>/projects/others/</guid>
+      <guid>https://cs.stanford.edu/people/paulliu/projects/others/</guid>
       <description>      </description>
     </item>
     

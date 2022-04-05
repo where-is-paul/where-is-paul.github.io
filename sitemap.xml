@@ -2,120 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/computational-geometry/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/neurips-21-submod-streaming/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/random-order/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/streaming/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/submodular/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/graph-neural-networks/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/bigdata-21-gnn/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/machine-learning/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/computational-geometry/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/socg-21-robots/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/socg-21-robots/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/motion-planning/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/motion-planning/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/bayesian-systems/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/bayesian-systems/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/big-data/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/big-data/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/determinantal-point-process/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/determinantal-point-process/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/www-21-mic/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/www-21-mic/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/www-21-elor/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/www-21-elor/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/streaming/</loc>
-    <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/colouring/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/colouring/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/graph-algorithms/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/graph-algorithms/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/sosa-21-colouring/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/sosa-21-colouring/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/stoc-20-adaptive/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/stoc-20-adaptive/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/adaptive-model/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/adaptive-model/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/wsdm-20-triangles/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/wsdm-20-triangles/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/submodular-optimization/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/submodular-optimization/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/mapreduce/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/mapreduce/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/wsdm-19-temporal/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/wsdm-19-temporal/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/sosa-19-submod/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/sosa-19-submod/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/cccg-18-streaming/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/cccg-18-streaming/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/spaa-18-local-ratio/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/spaa-18-local-ratio/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/local-ratio/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/local-ratio/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/cccg-15-discs/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/cccg-15-discs/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/numerical-analysis/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/numerical-analysis/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/acmtoms-17-ldlt/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/acmtoms-17-ldlt/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/cccg-16-coordinate/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/cccg-16-coordinate/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/fun-stuff/badminton/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/fun-stuff/badminton/</loc>
     <lastmod>2014-11-18T14:06:00-05:00</lastmod>
   </url><url>
-    <loc>/fun-stuff/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/fun-stuff/</loc>
     <lastmod>2014-11-18T14:06:00-05:00</lastmod>
   </url><url>
-    <loc>/papers/arxiv-14-udc/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/arxiv-14-udc/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/projects/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/sym-ildl/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/projects/sym-ildl/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/pendulum-wave/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/projects/pendulum-wave/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/google-ai/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/projects/google-ai/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/badminton-cv/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/projects/badminton-cv/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/others/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/projects/others/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://cs.stanford.edu/people/paulliu/categories/</loc>
   </url>
 </urlset>

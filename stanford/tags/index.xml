@@ -1,13 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Paul Liu</title>
+    <title>Tags on Paul Liu | Stanford</title>
     <link>https://cs.stanford.edu/people/paulliu/tags/</link>
-    <description>Recent content in Tags on Paul Liu</description>
+    <description>Recent content in Tags on Paul Liu | Stanford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Procrastinating since &#39;92.</copyright>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cs.stanford.edu/people/paulliu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cs.stanford.edu/people/paulliu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>random order</title>
+      <link>https://cs.stanford.edu/people/paulliu/tags/random-order/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/tags/random-order/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>https://cs.stanford.edu/people/paulliu/tags/streaming/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/tags/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>submodular</title>
+      <link>https://cs.stanford.edu/people/paulliu/tags/submodular/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/tags/submodular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graph neural networks</title>
+      <link>https://cs.stanford.edu/people/paulliu/tags/graph-neural-networks/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/tags/graph-neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://cs.stanford.edu/people/paulliu/tags/machine-learning/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs.stanford.edu/people/paulliu/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>computational geometry</title>
       <link>https://cs.stanford.edu/people/paulliu/tags/computational-geometry/</link>
@@ -50,15 +95,6 @@
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://cs.stanford.edu/people/paulliu/tags/determinantal-point-process/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>streaming</title>
-      <link>https://cs.stanford.edu/people/paulliu/tags/streaming/</link>
-      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://cs.stanford.edu/people/paulliu/tags/streaming/</guid>
       <description></description>
     </item>
     

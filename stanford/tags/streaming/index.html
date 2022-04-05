@@ -11,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="keywords" content="">
+<meta name="keywords" content="paul liu ubc stanford research algorithms computer science">
 
  
 <meta property="og:type" content="article"/>
 <meta property="og:description" content=""/>
-<meta property="og:title" content="streaming : https://cs.stanford.edu/people/paulliu/"/>
+<meta property="og:title" content="streaming"/>
 <meta property="og:site_name" content="The webpage of Paul Liu"/>
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
@@ -24,15 +24,10 @@
 <meta property="og:image:height" content="" />
 <meta property="og:url" content="https://cs.stanford.edu/people/paulliu/tags/streaming/">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-02-14"/>
-<meta property="article:modified_time" content="2021-02-14"/>
+<meta property="article:published_time" content="2021-12-01"/>
+<meta property="article:modified_time" content="2021-12-01"/>
 
-
-
-
-
-
-    <base href="https://cs.stanford.edu/people/paulliu//">
+    <base href="https://cs.stanford.edu/people/paulliu/">
     <title> streaming </title>
     <link rel="canonical" href="https://cs.stanford.edu/people/paulliu/tags/streaming/">
     <link href="https://cs.stanford.edu/people/paulliu/tags/streaming/index.xml" rel="alternate" type="application/rss+xml" title="streaming" />
@@ -40,34 +35,34 @@
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="https://cs.stanford.edu/people/paulliu/css/ZGS.min.83febcc2d7f02955d1d4aea87901a5d435b0ae969228951dd94ce87a4a217a94.css">
-    <link rel="shortcut icon" href="https://cs.stanford.edu/people/paulliu//favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="https://cs.stanford.edu/people/paulliu//apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://cs.stanford.edu/people/paulliu/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://cs.stanford.edu/people/paulliu/apple-touch-icon.png" />
 </head>
 
 <body lang="en">
 
 <header id="header">
     <figure>
-      <a href="https://cs.stanford.edu/people/paulliu/" border=0 id="logolink"><div class="icon-paul" id="logo"> </div></a>
+      <a href="https://cs.stanford.edu/people/paulliu" border=0 id="logolink"><div class="icon-paul" id="logo"> </div></a>
     </figure>
     <nav id="nav">
     
 
 <ul id="mainnav">
     <li>
-        <a href="https://cs.stanford.edu/people/paulliu//papers/">
+        <a href="https://cs.stanford.edu/people/paulliu/papers">
         <span class="icon"> <i aria-hidden="true" class="icon-pencil"></i></span>
         <span> papers </span>
     </a>
     </li>
     <li>
-    <a href="https://cs.stanford.edu/people/paulliu//projects/">
+    <a href="https://cs.stanford.edu/people/paulliu/projects">
         <span class="icon"> <i aria-hidden="true" class="icon-code"></i></span>
         <span> projects </span>
     </a>
     </li>
     <li>
-    <a href="https://cs.stanford.edu/people/paulliu//fun-stuff/">
+    <a href="https://cs.stanford.edu/people/paulliu/fun-stuff">
         <span class="icon"> <i aria-hidden="true" class="icon-pacman"></i></span>
         <span> fun stuff </span>
     </a>
@@ -79,7 +74,7 @@
     <a href="https://www.linkedin.com/in/where-is-paul/" class="linkedin" title="LinkedIn"><span class="icon icon-linkedin"></span></a>
     <a href="https://github.com/where-is-paul/" title="GitHub" class="github"><span class="icon icon-github"></span></a>
     <a href="https://scholar.google.com/citations?user=3ct054AAAAAJ&hl=en" title="Scholar" class="scholar"><span class="icon icon-scholar"></span></a>
-    <a href="https://cs.stanford.edu/people/paulliu//files/webcv.pdf" title="CV" class="cv"><span class="icon icon-resume"></span></a>
+    <a href="https://cs.stanford.edu/people/paulliu/files/webcv.pdf" title="CV" class="cv"><span class="icon icon-resume"></span></a>
 </div>
     </nav>
 </header>
@@ -89,6 +84,63 @@
    <div>
    <h1 id="title">streaming</h1>
    <ul id="list">
+    
+        
+<li>
+<details> 
+<summary style="outline: none; display: flex; align-items: baseline;">
+<div style="flex: 0.75">Cardinality constrained submodular maximization for random streams</div>
+<div class="meta right" style="flex: 0.25; margin-left: 0.5em; font-weight: 600"> NeurIPS 2021</div>
+</summary>
+
+<div class="medium">
+Paul Liu, Aviad Rubinstein, Jan Vondrák, Junyao Zhao
+</div>
+<hr style="border-top: 0px solid #8c8b8b;"/>
+
+<div class="abstract">
+
+<figure class="thumbnail left" style="margin: 1em">
+    
+        <a href="https://cs.stanford.edu/people/paulliu/files/neurips-2021.pdf" style="all: revert">
+            <img src="https://cs.stanford.edu/people/paulliu/img/neurips-21.png">
+        </a>
+    
+</figure>
+
+<p>
+We consider the problem of maximizing submodular functions in single-pass streaming and secretaries-with-shortlists models, both with random arrival order. For cardinality constrained monotone functions, Agrawal, Shadravan, and Stein gave a single-pass $(1-1/e-arepsilon)$-approximation algorithm using only linear memory, but their exponential dependence on $arepsilon$ makes it impractical even for $arepsilon=0.1$. We simplify both the algorithm and the analysis, obtaining an exponential improvement in the $arepsilon$-dependence (in particular, $O(k/arepsilon)$ memory). Extending these techniques, we also give a simple $(1/e-arepsilon)$-approximation for non-monotone functions in $O(k/arepsilon)$ memory. For the monotone case, we also give a corresponding unconditional hardness barrier of $1-1/e+arepsilon$ for single-pass algorithms in randomly ordered streams, even assuming unlimited computation.</p><p>Finally, we show that the algorithms are simple to implement and work well on real world datasets.
+</p>
+</div>
+
+<ul id="tags-special">
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/streaming">streaming</a>
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/random-order">random order</a>
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/submodular">submodular</a>
+  
+</ul>
+
+
+
+<a href="https://cs.stanford.edu/people/paulliu/files/neurips-2021.pdf">[pdf]</a>
+
+
+<a href="https://github.com/where-is-paul/submodular-streaming" style="color:indigo">[code]</a>
+
+
+
+<a href="https://cs.stanford.edu/people/paulliu/files/neurips-2021-poster.pdf" style="color:violet">[poster]</a>
+
+
+<a href="https://cs.stanford.edu/people/paulliu/files/neurips-2021-slides.pdf" style="color:orange">[slides]</a>
+
+
+
+</details>
+</li>
     
         
 <li>
@@ -107,8 +159,8 @@ Paul Liu, Akshay Soni, Eun Yong Kang, Yajun Wang, Mehul Parsana
 
 <figure class="thumbnail left" style="margin: 1em">
     
-        <a href="https://cs.stanford.edu/people/paulliu//files/www-2021-mic.pdf" style="all: revert">
-            <img src="https://cs.stanford.edu/people/paulliu//img/www-2021-mic.png">
+        <a href="https://cs.stanford.edu/people/paulliu/files/www-2021-mic.pdf" style="all: revert">
+            <img src="https://cs.stanford.edu/people/paulliu/img/www-2021-mic.png">
         </a>
     
 </figure>
@@ -120,15 +172,15 @@ Over the past decade, Determinantal Point Processes (DPPs) have proven to be a m
 
 <ul id="tags-special">
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/streaming">streaming</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/streaming">streaming</a>
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/determinantal-point-process">determinantal point process</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/determinantal-point-process">determinantal point process</a>
   
 </ul>
 
 
 
-<a href="https://cs.stanford.edu/people/paulliu//files/www-2021-mic.pdf">[pdf]</a>
+<a href="https://cs.stanford.edu/people/paulliu/files/www-2021-mic.pdf">[pdf]</a>
 
 
 <a href="https://gitlab.com/paul.liu.ubc/streaming-mic-dpp" style="color:indigo">[code]</a>
@@ -163,23 +215,23 @@ In the W-streaming model, an algorithm is given $O(n \text{polylog} n)$ space an
 
 <ul id="tags-special">
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/graph-algorithms">graph algorithms</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/graph-algorithms">graph algorithms</a>
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/streaming">streaming</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/streaming">streaming</a>
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/colouring">colouring</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/colouring">colouring</a>
   
 </ul>
 
 
 
-<a href="https://cs.stanford.edu/people/paulliu//files/sosa-2021.pdf">[pdf]</a>
+<a href="https://cs.stanford.edu/people/paulliu/files/sosa-2021.pdf">[pdf]</a>
 
 
 
 
 
-<a href="https://cs.stanford.edu/people/paulliu//files/sosa-2021-slides.pdf" style="color:orange">[slides]</a>
+<a href="https://cs.stanford.edu/people/paulliu/files/sosa-2021-slides.pdf" style="color:orange">[slides]</a>
 
 
 <a href="https://player.vimeo.com/video/497237518" style="color:green" target="_blank">[video]</a>
@@ -205,8 +257,8 @@ Christopher Liaw, Paul Liu, Robert Reiss
 
 <figure class="thumbnail left" style="margin: 1em">
     
-        <a href="https://cs.stanford.edu/people/paulliu//files/cccg-2018.pdf" style="all: revert">
-            <img src="https://cs.stanford.edu/people/paulliu//img/cccg-18.png">
+        <a href="https://cs.stanford.edu/people/paulliu/files/cccg-2018.pdf" style="all: revert">
+            <img src="https://cs.stanford.edu/people/paulliu/img/cccg-18.png">
         </a>
     
 </figure>
@@ -218,15 +270,15 @@ Within the computational geometry (CG) community, the <b>shifting strategy</b> i
 
 <ul id="tags-special">
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/computational-geometry">computational geometry</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/computational-geometry">computational geometry</a>
   
-    <a href="https://cs.stanford.edu/people/paulliu//tags/streaming">streaming</a>
+    <a href="https://cs.stanford.edu/people/paulliu/tags/streaming">streaming</a>
   
 </ul>
 
 
 
-<a href="https://cs.stanford.edu/people/paulliu//files/cccg-2018.pdf">[pdf]</a>
+<a href="https://cs.stanford.edu/people/paulliu/files/cccg-2018.pdf">[pdf]</a>
 
 
 

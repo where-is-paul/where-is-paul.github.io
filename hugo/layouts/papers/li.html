@@ -13,15 +13,27 @@
 
 <div class="abstract">
 {{ if isset .Params "figure" }}
-<figure class="thumbnail left" style="margin: 1em">
-    {{ if isset .Params "file" }}
-        <a href="{{ $baseurl }}/files/{{ .Params.file }}" style="all: revert">
+    {{ if isset .Params "large-figure" }}
+    <figure style="margin: 1em">
+        {{ if isset .Params "file" }}
+            <a href="{{ $baseurl }}/files/{{ .Params.file }}" style="all: revert">
+                <img src="{{ $baseurl }}/img/{{.Params.figure}}">
+            </a>
+        {{ else }}
             <img src="{{ $baseurl }}/img/{{.Params.figure}}">
-        </a>
+        {{ end }}
+    </figure>
     {{ else }}
-        <img src="{{ $baseurl }}/img/{{.Params.figure}}">
+    <figure class="thumbnail left" style="margin: 1em">
+        {{ if isset .Params "file" }}
+            <a href="{{ $baseurl }}/files/{{ .Params.file }}" style="all: revert">
+                <img src="{{ $baseurl }}/img/{{.Params.figure}}">
+            </a>
+        {{ else }}
+            <img src="{{ $baseurl }}/img/{{.Params.figure}}">
+        {{ end }}
+    </figure>
     {{ end }}
-</figure>
 {{ end }}
 <p>
 {{ (replace (.Params.abstract) "\n" "</p><p>") | safeHTML }}

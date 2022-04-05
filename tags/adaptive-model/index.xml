@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>adaptive model on Paul Liu</title>
-    <link>/tags/adaptive-model/</link>
-    <description>Recent content in adaptive model on Paul Liu</description>
+    <title>adaptive model on Paul Liu | Stanford</title>
+    <link>https://cs.stanford.edu/people/paulliu/tags/adaptive-model/</link>
+    <description>Recent content in adaptive model on Paul Liu | Stanford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Procrastinating since &#39;92.</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/adaptive-model/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://cs.stanford.edu/people/paulliu/tags/adaptive-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Polynomial Lower Bound on Adaptive Complexity of Submodular Maximization</title>
-      <link>/papers/stoc-20-adaptive/</link>
+      <link>https://cs.stanford.edu/people/paulliu/papers/stoc-20-adaptive/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/papers/stoc-20-adaptive/</guid>
+      <guid>https://cs.stanford.edu/people/paulliu/papers/stoc-20-adaptive/</guid>
       <description></description>
     </item>
     
