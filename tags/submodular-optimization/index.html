@@ -24,8 +24,8 @@
 <meta property="og:image:height" content="" />
 <meta property="og:url" content="https://cs.stanford.edu/people/paulliu/tags/submodular-optimization/">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-01-01"/>
-<meta property="article:modified_time" content="2020-01-01"/>
+<meta property="article:published_time" content="2022-02-03"/>
+<meta property="article:modified_time" content="2022-02-03"/>
 
     <base href="https://cs.stanford.edu/people/paulliu/">
     <title> submodular optimization </title>
@@ -89,6 +89,51 @@
 <li>
 <details> 
 <summary style="outline: none; display: flex; align-items: baseline;">
+<div style="flex: 0.75">Streaming Submodular Maximization under Matroid Constraints</div>
+<div class="meta right" style="flex: 0.25; margin-left: 0.5em; font-weight: 600"> ICALP 2022</div>
+</summary>
+
+<div class="medium">
+Moran Feldman, Paul Liu, Ashkan Norouzi-Fard, Ola Svensson, Jan Vondrák, and Rico Zenklusen
+</div>
+<hr style="border-top: 0px solid #8c8b8b;"/>
+
+<div class="abstract">
+
+<p>
+Recent progress in  (semi-)streaming algorithms for monotone submodular function maximization has led to tight results for a simple  cardinality constraint. However,  current techniques fail to give a similar understanding for natural generalizations, including matroid constraints. Our paper improves on the previously best approximation guarantees of $1/4$ and $1/2$ for single-pass and multi-pass streaming algorithms, respectively. In fact, our multi-pass streaming algorithm is tight in that any algorithm with a better guarantee than $1/2$ must make several passes through the stream and any algorithm that beats our guarantee of $1-1/e$ must make linearly many passes (as well as an exponential number of value oracle queries). 
+</p>
+</div>
+
+<ul id="tags-special">
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/submodular-optimization">submodular optimization</a>
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/streaming">streaming</a>
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/random-order">random order</a>
+  
+    <a href="https://cs.stanford.edu/people/paulliu/tags/multipass">multipass</a>
+  
+</ul>
+
+
+
+<a href="https://cs.stanford.edu/people/paulliu/files/icalp-2022.pdf">[pdf]</a>
+
+
+
+
+
+
+
+</details>
+</li>
+    
+        
+<li>
+<details> 
+<summary style="outline: none; display: flex; align-items: baseline;">
 <div style="flex: 0.75">A Polynomial Lower Bound on Adaptive Complexity of Submodular Maximization</div>
 <div class="meta right" style="flex: 0.25; margin-left: 0.5em; font-weight: 600"> STOC 2020</div>
 </summary>
@@ -100,13 +145,15 @@ Wenzheng Li, Paul Liu, Jan Vondrák
 
 <div class="abstract">
 
-<figure class="thumbnail left" style="margin: 1em">
     
-        <a href="https://cs.stanford.edu/people/paulliu/files/stoc-2020.pdf" style="all: revert">
-            <img src="https://cs.stanford.edu/people/paulliu/img/stoc-2020.png">
-        </a>
+    <figure class="thumbnail left" style="margin: 1em">
+        
+            <a href="https://cs.stanford.edu/people/paulliu/files/stoc-2020.pdf" style="all: revert">
+                <img src="https://cs.stanford.edu/people/paulliu/img/stoc-2020.png">
+            </a>
+        
+    </figure>
     
-</figure>
 
 <p>
 Informally, the adaptive model measures complexity by the longest chain of sequentially dependent calls to $f$ in the algorithm. The focus of the adaptive model is to reward highly parallel algorithms, and penalize algorithms that have high 'sequentiality'. Much work has been devoted recently to creating efficient algorithms for submodular optimization (SUBMOD) in the adaptive model. We focus instead on the lower bound, and provide the first lower bound showing that any approximation for monotone SUBMOD takes polynomially many rounds as the approximation factor approaches $1-1/e$.</p><p>For the unconstrained non-monotone maximization problem, we show a positive result. For every instance, and every $\delta> 0$, either we obtain a $(1/2-\delta)$-approximation in 1 round, or a $(1/2 + \Omega(\delta^2))$-approximation in $O(1/\delta^2)$ rounds. Unlike the cardinality-constrained case, there cannot be an instance where (i) it is impossible to achieve an approximation factor better than $1/2$ regardless of the number of rounds, and (ii) it takes $r$ rounds to achieve a factor of $1/2 − O(1/r)$.
@@ -153,13 +200,15 @@ Paul Liu and Jan Vondrák
 
 <div class="abstract">
 
-<figure class="thumbnail left" style="margin: 1em">
     
-        <a href="https://cs.stanford.edu/people/paulliu/files/sosa-2019.pdf" style="all: revert">
-            <img src="https://cs.stanford.edu/people/paulliu/img/sosa-2019.png">
-        </a>
+    <figure class="thumbnail left" style="margin: 1em">
+        
+            <a href="https://cs.stanford.edu/people/paulliu/files/sosa-2019.pdf" style="all: revert">
+                <img src="https://cs.stanford.edu/people/paulliu/img/sosa-2019.png">
+            </a>
+        
+    </figure>
     
-</figure>
 
 <p>
 Submodular optimization has received significant attention in both practice and theory, as a wide array of problems in machine learning, auction theory, and combinatorial optimization have submodular structure. In practice, these problems often involve large amounts of data, and must be solved in a distributed way. One popular framework for running such distributed algorithms is MapReduce. In this paper, we present two simple algorithms for cardinality constrained submodular optimization in the MapReduce model: the first is a $(1/2 - o(1))$-approximation in 2 MapReduce rounds, and the second is a $(1 - 1/e - \epsilon)$-approximation in $\frac{1+o(1)}{\epsilon}$ MapReduce rounds.

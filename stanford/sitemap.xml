@@ -2,34 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/badminton/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/computer-vision/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/machine-learning/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/cvpr-22-badminton/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/multipass/</loc>
+    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/random-order/</loc>
+    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/streaming/</loc>
+    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/papers/icalp-22-streaming/</loc>
+    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cs.stanford.edu/people/paulliu/tags/submodular-optimization/</loc>
+    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/papers/neurips-21-submod-streaming/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/papers/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/tags/random-order/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/tags/streaming/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/tags/submodular/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/tags/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/tags/graph-neural-networks/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/papers/bigdata-21-gnn/</loc>
-    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/tags/machine-learning/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/tags/computational-geometry/</loc>
@@ -72,9 +90,6 @@
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/papers/wsdm-20-triangles/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cs.stanford.edu/people/paulliu/tags/submodular-optimization/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cs.stanford.edu/people/paulliu/tags/mapreduce/</loc>
